@@ -1,92 +1,90 @@
 # jquery
 
-## jquery ÁøÇà¼ø¼­
+## jquery ì§„í–‰ìˆœì„œ
 
-- 1.±âÃÊ¹®¼­ Á¤¸®
-- 2.Á¦ÀÌÄõ¸® »ç¿ë¹ı Á¤¸®
-- 3.Á¦ÀÌÄõ¸® ÇÃ·¯±×ÀÎ Á¤¸®
-- 4.Á¦ÀÌÄõ¸®¿¡¼­ ÀÚÁÖ »ç¿ëµÇ´Â Áß¿ä ÇÔ¼ö Á¤¸®
-- 5.Á¦ÀÌÄõ¸®¸¦ »ç¿ëÇÏ¿© °£´ÜÇÑ Á¦ÀÌÄõ¸® ¿¬½À
-- 6.Á¦ÀÌÄõ¸®¸¦  »ç¿ëÇÏ¿© ÇÃ·¯±×ÀÎ Á¦ÀÛ
+- 1.ê¸°ì´ˆë¬¸ì„œ ì •ë¦¬
+- 2.ì œì´ì¿¼ë¦¬ ì‚¬ìš©ë²• ì •ë¦¬
+- 3.ì œì´ì¿¼ë¦¬ í”ŒëŸ¬ê·¸ì¸ ì •ë¦¬
+- 4.ì œì´ì¿¼ë¦¬ì—ì„œ ìì£¼ ì‚¬ìš©ë˜ëŠ” ì¤‘ìš” í•¨ìˆ˜ ì •ë¦¬
+- 5.ì œì´ì¿¼ë¦¬ë¥¼ ì‚¬ìš©í•˜ì—¬ ê°„ë‹¨í•œ ì œì´ì¿¼ë¦¬ ì—°ìŠµ
+- 6.ì œì´ì¿¼ë¦¬ë¥¼  ì‚¬ìš©í•˜ì—¬ í”ŒëŸ¬ê·¸ì¸ ì œì‘
 
 
 -----
 
-## 1.±âÃÊ¹®¼­ Á¤¸®
+## 1.ê¸°ì´ˆë¬¸ì„œ ì •ë¦¬
 
-- [±âÃÊ¹®¼­ Á¤¸®](docs/01_00_jquery_±âÃÊ¹®¼­.md)
-- 1. jQuery ¼±ÅÃÀÚ
-- 2. jQuery ¸Ş¼Òµå
-- 3. jQuery ÀÌº¥Æ®
-- 4. jQuery Å°º¸µå ÀÌº¥Æ®
-
-<br>
-
-
-## 2.Á¦ÀÌÄõ¸® »ç¿ë¹ı Á¤¸®
-
-* [jquery Á¤¸®](docs/jquery.md)
-
+- [ê¸°ì´ˆë¬¸ì„œ ì •ë¦¬](docs/01_00_jquery_ê¸°ì´ˆë¬¸ì„œ.md)
+- 1. jQuery ì„ íƒì
+- 2. jQuery ë©”ì†Œë“œ
+- 3. jQuery ì´ë²¤íŠ¸
+- 4. jQuery í‚¤ë³´ë“œ ì´ë²¤íŠ¸
 
 <br>
 
-## 3.Á¦ÀÌÄõ¸® ÇÃ·¯±×ÀÎ Á¤¸®
 
-- [ÇÃ·¯±×ÀÎ ¸ğÀ½-htmldrive](http://www.htmldrive.net)
-- [ÇÃ·¯±×ÀÎ ¸ğÀ½-jqueryrain](http://www.jqueryrain.com)
-- ½½¶óÀÌµå
-    - [slidesjs ÇÃ·¯±×ÀÎ](docs/01_02_jquery_plugin_slidesjs.md)
+## 2.ì œì´ì¿¼ë¦¬ ì‚¬ìš©ë²• ì •ë¦¬
+
+* [jquery ì •ë¦¬](docs/jquery.md)
+
+
+<br>
+
+## 3.ì œì´ì¿¼ë¦¬ í”ŒëŸ¬ê·¸ì¸ ì •ë¦¬
+
+- [í”ŒëŸ¬ê·¸ì¸ ëª¨ìŒ-htmldrive](http://www.htmldrive.net)
+- [í”ŒëŸ¬ê·¸ì¸ ëª¨ìŒ-jqueryrain](http://www.jqueryrain.com)
+- ìŠ¬ë¼ì´ë“œ
+    - [slidesjs í”ŒëŸ¬ê·¸ì¸](docs/01_02_jquery_plugin_slidesjs.md)
     - [bxslider](docs/01_01_jquery_plugin_bxslider.md)
     - [Swiper](http://www.idangero.us/swiper/#.VkhuaXbhC70)
     - [cycle2](http://jquery.malsup.com/cycle2/)
-    - slick ÇÃ·¯±×ÀÎ Á¤¸®
-- ¸ŞÀÎ¸Ş´º
+    - slick í”ŒëŸ¬ê·¸ì¸ ì •ë¦¬
+- ë©”ì¸ë©”ë‰´
     - [superfish](https://github.com/joeldbirch/superfish)
-    - [jquery.meanmenu.js](https://github.com/meanthemes/meanMenu) - ¸ğ¹ÙÀÏ ¸ŞÀÎ¸Ş´º
-- ·¹ÀÌ¾Æ¿ô
+    - [jquery.meanmenu.js](https://github.com/meanthemes/meanMenu) - ëª¨ë°”ì¼ ë©”ì¸ë©”ë‰´
+- ë ˆì´ì•„ì›ƒ
     - [masonry](http://masonry.desandro.com/), [isotope](http://isotope.metafizzy.co/), [packery](http://packery.metafizzy.co/)
-- ÆË¾÷
+- íŒì—…
     - [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
     - [bpopup](docs/01_03_jquery_plugin_bpopup.md)
-- ´Ş·Â
+- ë‹¬ë ¥
     - [datepicker](docs/Datepicker.md)
     - [fullcalendar](http://fullcalendar.io/)
 
 
 <br>
 
-## 4.Á¦ÀÌÄõ¸®¿¡¼­ ÀÚÁÖ »ç¿ëµÇ´Â Áß¿ä ÇÔ¼ö Á¤¸®
+## 4.ì œì´ì¿¼ë¦¬ì—ì„œ ìì£¼ ì‚¬ìš©ë˜ëŠ” ì¤‘ìš” í•¨ìˆ˜ ì •ë¦¬
 
-* [ÀÚÁÖ »ç¿ëÇÏ´Â ÇÔ¼ö each, trigger](docs/01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â ÇÔ¼ö.md)
+* [ìì£¼ ì‚¬ìš©í•˜ëŠ” í•¨ìˆ˜ each, trigger](docs/01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ” í•¨ìˆ˜.md)
 
-* eachÇÔ¼ö    
+* eachí•¨ìˆ˜    
 	- setTimeout(function,millisecond)    
 	- setInterval(function,millisecond)    
 	- clearTimeout(id)    
 	- clearINterval(id)    
 
-* triggerÇÔ¼ö....
+* triggerí•¨ìˆ˜....
 	- escape() / unescape()
 	- encodeURI(url) / decodeURI(encodeURI)
 	- encodeURIComponent(uriComponent) / decodeURIComponent(encodedURI)
 
-* change´×±â¹ı
+* changeë‹ê¸°ë²•
 
 <br>
 
-## 5.Á¦ÀÌÄõ¸®¸¦ »ç¿ëÇÏ¿© °£´ÜÇÑ Á¦ÀÌÄõ¸® ¿¬½À (Á¤¸®¿¹Á¤)
+## 5.ì œì´ì¿¼ë¦¬ë¥¼ ì‚¬ìš©í•˜ì—¬ ê°„ë‹¨í•œ ì œì´ì¿¼ë¦¬ ì—°ìŠµ (ì •ë¦¬ì˜ˆì •)
 
 
 
 
 <br>
 
-## 6.Á¦ÀÌÄõ¸®¸¦  »ç¿ëÇÏ¿© ÇÃ·¯±×ÀÎ Á¦ÀÛ (Á¤¸®¿¹Á¤)
+## 6.ì œì´ì¿¼ë¦¬ë¥¼  ì‚¬ìš©í•˜ì—¬ í”ŒëŸ¬ê·¸ì¸ ì œì‘ (ì •ë¦¬ì˜ˆì •)
 
 
 <br>
 
 ----
 
-
-* [FrontEndStudy](../../README.md)
