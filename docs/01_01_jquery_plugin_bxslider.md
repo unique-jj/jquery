@@ -4,19 +4,19 @@ bxSlider 4.2.5 , http://bxslider.com
 
 
 
-### Æ¯Â¡
-* ¹İÀÀÇü ´ëÀÀ.
-* °¡·Î, ¼¼·Î, ÆäÀÌµå ¸ğµå
-* ÀÌ¹ÌÁö, ºñµğ¿À, html ÄÁÅÙÃ÷ Á¦°ø
-* °ø¿ë ¸Å¼Òµå, Äİ¹é API Á¦°ø
-* Áö¿ø ºê¶ó¿ìÁ®: Firefox, Chrome, Safari, iOS, Android, IE7+
+### íŠ¹ì§•
+* ë°˜ì‘í˜• ëŒ€ì‘.
+* ê°€ë¡œ, ì„¸ë¡œ, í˜ì´ë“œ ëª¨ë“œ
+* ì´ë¯¸ì§€, ë¹„ë””ì˜¤, html ì»¨í…ì¸  ì œê³µ
+* ê³µìš© ë§¤ì†Œë“œ, ì½œë°± API ì œê³µ
+* ì§€ì› ë¸Œë¼ìš°ì ¸: Firefox, Chrome, Safari, iOS, Android, IE7+
 
 
 
-## »ç¿ë¹ı
+## ì‚¬ìš©ë²•
 
 
-### Step 1: `js`, `css` ÆÄÀÏ ÀÎÅ¬·çµå
+### Step 1: `js`, `css` íŒŒì¼ ì¸í´ë£¨ë“œ
 
 ```html
 <!-- jQuery library (served from Google) -->
@@ -27,7 +27,7 @@ bxSlider 4.2.5 , http://bxslider.com
 <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
 ```
 
-### Step 2: `HTML` »ı¼º
+### Step 2: `HTML` ìƒì„±
 
 
 ```html
@@ -39,168 +39,168 @@ bxSlider 4.2.5 , http://bxslider.com
 </ul>
 ```
 
-### Step 3: bxSlider È£Ãâ ¹× ¿É¼Ç
+### Step 3: bxSlider í˜¸ì¶œ ë° ì˜µì…˜
 
 ```javascript
 $(document).ready(function(){
     $('.bxslider').bxSlider( {
-        mode: 'horizontal',// °¡·Î ¹æÇâ ¼öÆò ½½¶óÀÌµå
-        speed: 500,        // ÀÌµ¿ ¼Óµµ¸¦ ¼³Á¤
-        pager: false,      // ÇöÀç À§Ä¡ ÆäÀÌÂ¡ Ç¥½Ã ¿©ºÎ ¼³Á¤
-        moveSlides: 1,     // ½½¶óÀÌµå ÀÌµ¿½Ã °³¼ö
-        slideWidth: 100,   // ½½¶óÀÌµå ³Êºñ
-        minSlides: 4,      // ÃÖ¼Ò ³ëÃâ °³¼ö
-        maxSlides: 4,      // ÃÖ´ë ³ëÃâ °³¼ö
-        slideMargin: 5,    // ½½¶óÀÌµå°£ÀÇ °£°İ
-        auto: true,        // ÀÚµ¿ ½ÇÇà ¿©ºÎ
-        autoHover: true,   // ¸¶¿ì½º È£¹ö½Ã Á¤Áö ¿©ºÎ
-        controls: false    // ÀÌÀü ´ÙÀ½ ¹öÆ° ³ëÃâ ¿©ºÎ
+        mode: 'horizontal',// ê°€ë¡œ ë°©í–¥ ìˆ˜í‰ ìŠ¬ë¼ì´ë“œ
+        speed: 500,        // ì´ë™ ì†ë„ë¥¼ ì„¤ì •
+        pager: false,      // í˜„ì¬ ìœ„ì¹˜ í˜ì´ì§• í‘œì‹œ ì—¬ë¶€ ì„¤ì •
+        moveSlides: 1,     // ìŠ¬ë¼ì´ë“œ ì´ë™ì‹œ ê°œìˆ˜
+        slideWidth: 100,   // ìŠ¬ë¼ì´ë“œ ë„ˆë¹„
+        minSlides: 4,      // ìµœì†Œ ë…¸ì¶œ ê°œìˆ˜
+        maxSlides: 4,      // ìµœëŒ€ ë…¸ì¶œ ê°œìˆ˜
+        slideMargin: 5,    // ìŠ¬ë¼ì´ë“œê°„ì˜ ê°„ê²©
+        auto: true,        // ìë™ ì‹¤í–‰ ì—¬ë¶€
+        autoHover: true,   // ë§ˆìš°ìŠ¤ í˜¸ë²„ì‹œ ì •ì§€ ì—¬ë¶€
+        controls: false    // ì´ì „ ë‹¤ìŒ ë²„íŠ¼ ë…¸ì¶œ ì—¬ë¶€
     });
 });
 ```
 
 
-## ±¸¼º ¿É¼Ç
+## êµ¬ì„± ì˜µì…˜
 
 ###General
 
 **mode**
-½½¶óÀÌµå À¯Çü
+ìŠ¬ë¼ì´ë“œ ìœ í˜•
 ```
 default: 'horizontal'
 options: 'horizontal', 'vertical', 'fade'
 ```
 
 **speed**
-½½¶óÀÌµå ÀüÈ¯ ½Ã°£(ms ´ÜÀ§)
+ìŠ¬ë¼ì´ë“œ ì „í™˜ ì‹œê°„(ms ë‹¨ìœ„)
 ```
 default: 500
 options: integer
 ```
 
 **slideMargin**
-°¢ ½½¶óÀÌµå »çÀÌÀÇ ¿©¹é
+ê° ìŠ¬ë¼ì´ë“œ ì‚¬ì´ì˜ ì—¬ë°±
 ```
 default: 0
 options: integer
 ```
 
 **startSlide**
-½ÃÀÛ ½½¶óÀÌµå ÀÎµ¦½º (zero-based)
+ì‹œì‘ ìŠ¬ë¼ì´ë“œ ì¸ë±ìŠ¤ (zero-based)
 ```
 default: 0
 options: integer
 ```
 
 **randomStart**
-ÀÓÀÇÀÇ ½½¶óÀÌµå¿¡¼­ ½½¶óÀÌ´õ¸¦ ½ÃÀÛÇÕ´Ï´Ù
+ì„ì˜ì˜ ìŠ¬ë¼ì´ë“œì—ì„œ ìŠ¬ë¼ì´ë”ë¥¼ ì‹œì‘í•©ë‹ˆë‹¤
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **slideSelector**
-½½¶óÀÌµå·Î »ç¿ëÇÒ ¿ä¼Ò (ex. <code>'div.slide'</code>).<br />Âü°í: ±âº»ÀûÀ¸·Î, bxSlider´Â ½½¶óÀÌ´õ ¿ä¼ÒÀÇ ¸ğµç Á÷°è ÀÚ½ÄÀ» »ç¿ëÇÕ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œë¡œ ì‚¬ìš©í•  ìš”ì†Œ (ex. <code>'div.slide'</code>).<br />ì°¸ê³ : ê¸°ë³¸ì ìœ¼ë¡œ, bxSliderëŠ” ìŠ¬ë¼ì´ë” ìš”ì†Œì˜ ëª¨ë“  ì§ê³„ ìì‹ì„ ì‚¬ìš©í•©ë‹ˆë‹¤.
 ```
 default: ''
 options: jQuery selector
 ```
 
 **infiniteLoop**
-¸¸¾à <code>true</code>·Î ¼³Á¤ÇÏ¸é, ¸Ç ¸¶Áö¸·¿¡¼­ "Next" ¸¦ Å¬¸¯ÇÏ¸é Ã³À½À¸·Î ÀüÈ¯µË´Ï´Ù.
+ë§Œì•½ <code>true</code>ë¡œ ì„¤ì •í•˜ë©´, ë§¨ ë§ˆì§€ë§‰ì—ì„œ "Next" ë¥¼ í´ë¦­í•˜ë©´ ì²˜ìŒìœ¼ë¡œ ì „í™˜ë©ë‹ˆë‹¤.
 ```
 default: true
 options: boolean (true / false)
 ```
 
 **hideControlOnEnd**
-`true`ÀÇ °æ¿ì ½½¶óÀÌµå°¡ Ã¹¹øÂ° ¶Ç´Â ¸¶Áö¸·ÀÏ¶§ "Prev"°ú "Next" ÄÁÆ®·ÑÀ» ºñÈ°¼ºÈ­ÇÏ´Â Å¬·¡½º(`disabled`)¸¦ ¹Ş°ÔµË´Ï´Ù.<br/>Âü°í: <code>infiniteLoop: false</code> ¸¦ »ç¿ëÇÏ´Â °æ¿ì¸¸ Àû¿ë.
+`true`ì˜ ê²½ìš° ìŠ¬ë¼ì´ë“œê°€ ì²«ë²ˆì§¸ ë˜ëŠ” ë§ˆì§€ë§‰ì¼ë•Œ "Prev"ê³¼ "Next" ì»¨íŠ¸ë¡¤ì„ ë¹„í™œì„±í™”í•˜ëŠ” í´ë˜ìŠ¤(`disabled`)ë¥¼ ë°›ê²Œë©ë‹ˆë‹¤.<br/>ì°¸ê³ : <code>infiniteLoop: false</code> ë¥¼ ì‚¬ìš©í•˜ëŠ” ê²½ìš°ë§Œ ì ìš©.
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **easing**
-"easing" À¯ÇüÀº ÀüÈ¯½Ã »ç¿ë. CSS ÀüÈ¯À» »ç¿ëÇÏ´Â °æ¿ì, <code>transition-timing-function</code> ¼Ó¼º¿¡ ´ëÇÑ °ªÀ» Æ÷ÇÔÇÑ´Ù. CSS ÀüÈ¯À» »ç¿ëÇÏÁö ¾Ê´Â °æ¿ì ´ç½ÅÀº ´õ¸¹Àº ¿É¼Ç ÇÃ·¯±×ÀÎÀÎ <code>jquery.easing.1.3.js</code>À» Æ÷ÇÔ ÇÒ ¼ö ÀÖ´Ù.<br>´õ ¸¹Àº Á¤º¸¸¦ ¿øÇÏ½Ã¸é [http://gsgd.co.uk/sandbox/jquery/easing/](http://gsgd.co.uk/sandbox/jquery/easing/)¸¦ ÂüÁ¶ÇÏ½Ê½Ã¿À.
+"easing" ìœ í˜•ì€ ì „í™˜ì‹œ ì‚¬ìš©. CSS ì „í™˜ì„ ì‚¬ìš©í•˜ëŠ” ê²½ìš°, <code>transition-timing-function</code> ì†ì„±ì— ëŒ€í•œ ê°’ì„ í¬í•¨í•œë‹¤. CSS ì „í™˜ì„ ì‚¬ìš©í•˜ì§€ ì•ŠëŠ” ê²½ìš° ë‹¹ì‹ ì€ ë”ë§ì€ ì˜µì…˜ í”ŒëŸ¬ê·¸ì¸ì¸ <code>jquery.easing.1.3.js</code>ì„ í¬í•¨ í•  ìˆ˜ ìˆë‹¤.<br>ë” ë§ì€ ì •ë³´ë¥¼ ì›í•˜ì‹œë©´ [http://gsgd.co.uk/sandbox/jquery/easing/](http://gsgd.co.uk/sandbox/jquery/easing/)ë¥¼ ì°¸ì¡°í•˜ì‹­ì‹œì˜¤.
 
 ```
 default: null
-options: CSS¸¦ »ç¿ëÇÏ´Â °æ¿ì: 'linear', 'ease', 'ease-in', 'ease-out', 'ease-in-out', 'cubic-bezier(n,n,n,n)'. CSS¸¦ »ç¿ëÇÏÁö ¾Ê´Â °æ¿ì: 'swing', 'linear' (Ãß°¡ ¿É¼ÇÀ» º¸·Á¸é À§ÀÇ ÆÄÀÏÀ» ÂüÁ¶ÇÏ½Ê½Ã¿À)
+options: CSSë¥¼ ì‚¬ìš©í•˜ëŠ” ê²½ìš°: 'linear', 'ease', 'ease-in', 'ease-out', 'ease-in-out', 'cubic-bezier(n,n,n,n)'. CSSë¥¼ ì‚¬ìš©í•˜ì§€ ì•ŠëŠ” ê²½ìš°: 'swing', 'linear' (ì¶”ê°€ ì˜µì…˜ì„ ë³´ë ¤ë©´ ìœ„ì˜ íŒŒì¼ì„ ì°¸ì¡°í•˜ì‹­ì‹œì˜¤)
 ```
 
 **captions**
-ÀÌ¹ÌÁö Ä¸¼ÇÀ» Æ÷ÇÔÇÕ´Ï´Ù. Ä¸¼ÇÀº ÀÌ¹ÌÁöÀÇ <code>title</code> ¼Ó¼ºÀÔ´Ï´Ù.
+ì´ë¯¸ì§€ ìº¡ì…˜ì„ í¬í•¨í•©ë‹ˆë‹¤. ìº¡ì…˜ì€ ì´ë¯¸ì§€ì˜ <code>title</code> ì†ì„±ì…ë‹ˆë‹¤.
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **ticker**
-ticker ¸ğµå¿¡¼­ ½½¶óÀÌ´õ¸¦ »ç¿ë (´º½º ticker¿Í À¯»ç)
+ticker ëª¨ë“œì—ì„œ ìŠ¬ë¼ì´ë”ë¥¼ ì‚¬ìš© (ë‰´ìŠ¤ tickerì™€ ìœ ì‚¬)
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **tickerHover**
-¸¶¿ì½º°¡ ½½¶óÀÌ´õ¸¦ °¡¸®Å³ ¶§ ticker°¡ ÀÏ½Ã ÁßÁöµË´Ï´Ù. Âü°í :ÀÌ ±â´ÉÀº CSSÀÇ transitionsÀ» »ç¿ëÇÏ´Â °æ¿ì ÀÛµ¿ÇÏÁö ¾Ê½À´Ï´Ù!
+ë§ˆìš°ìŠ¤ê°€ ìŠ¬ë¼ì´ë”ë¥¼ ê°€ë¦¬í‚¬ ë•Œ tickerê°€ ì¼ì‹œ ì¤‘ì§€ë©ë‹ˆë‹¤. ì°¸ê³  :ì´ ê¸°ëŠ¥ì€ CSSì˜ transitionsì„ ì‚¬ìš©í•˜ëŠ” ê²½ìš° ì‘ë™í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤!
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **adaptiveHeight**
-µ¿ÀûÀ¸·Î °¢ ½½¶óÀÌµåÀÇ ³ôÀÌ¸¦ ±â¹İÀ¸·Î ½½¶óÀÌ´õ ³ôÀÌ¸¦ Á¶Á¤ÇÕ´Ï´Ù.
+ë™ì ìœ¼ë¡œ ê° ìŠ¬ë¼ì´ë“œì˜ ë†’ì´ë¥¼ ê¸°ë°˜ìœ¼ë¡œ ìŠ¬ë¼ì´ë” ë†’ì´ë¥¼ ì¡°ì •í•©ë‹ˆë‹¤.
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **adaptiveHeightSpeed**
-½½¶óÀÌµå ³ôÀÌ ÀüÈ¯ ½Ã°£(ms ´ÜÀ§). Âü°í: <code>adaptiveHeight: true</code>¿¡¸¸ »ç¿ë
+ìŠ¬ë¼ì´ë“œ ë†’ì´ ì „í™˜ ì‹œê°„(ms ë‹¨ìœ„). ì°¸ê³ : <code>adaptiveHeight: true</code>ì—ë§Œ ì‚¬ìš©
 ```
 default: 500
 options: integer
 ```
 
 **video**
-¸ğµç ½½¶óÀÌµå ºñµğ¿À¸¦ Æ÷ÇÔÇÏ´Â °æ¿ì, <code>true</code>·Î ¼³Á¤ÇÕ´Ï´Ù. ¶ÇÇÑ, ÇÃ·¯±×ÀÎ <code>jquery.fitvids.js</code>Æ÷ÇÔ<br />
-´õ ¸¹Àº Á¤º¸¸¦ ¿øÇÏ½Ã¸é [http://fitvidsjs.com/](http://fitvidsjs.com/) º¸±â
+ëª¨ë“  ìŠ¬ë¼ì´ë“œ ë¹„ë””ì˜¤ë¥¼ í¬í•¨í•˜ëŠ” ê²½ìš°, <code>true</code>ë¡œ ì„¤ì •í•©ë‹ˆë‹¤. ë˜í•œ, í”ŒëŸ¬ê·¸ì¸ <code>jquery.fitvids.js</code>í¬í•¨<br />
+ë” ë§ì€ ì •ë³´ë¥¼ ì›í•˜ì‹œë©´ [http://fitvidsjs.com/](http://fitvidsjs.com/) ë³´ê¸°
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **responsive**
-È°¼º ¶Ç´Â ºñÈ°¼ºÀ¸·Î ½½¶óÀÌ´õÀÇ Å©±âÁ¶Á¤À» ÀÚµ¿À¸·Î ¼³Á¤ÇÕ´Ï´Ù..
+í™œì„± ë˜ëŠ” ë¹„í™œì„±ìœ¼ë¡œ ìŠ¬ë¼ì´ë”ì˜ í¬ê¸°ì¡°ì •ì„ ìë™ìœ¼ë¡œ ì„¤ì •í•©ë‹ˆë‹¤..
 ```
 default: true
 options: boolean (true /false)
 ```
 
 **useCSS**
-`true`ÀÇ °æ¿ì, CSS ÀüÈ¯Àº ¼öÆò ¹× ¼öÁ÷ ½½¶óÀÌµå ¾Ö´Ï¸ŞÀÌ¼Ç¿¡ »ç¿ëµÊ (³×ÀÌÆ¼ºê ÇÏµå¿ş¾î °¡¼ÓÀ» »ç¿ëÇÕ´Ï´Ù). `false`ÀÇ °æ¿ì, jQueryÀÇ animate()°¡ »ç¿ëµË´Ï´Ù.
+`true`ì˜ ê²½ìš°, CSS ì „í™˜ì€ ìˆ˜í‰ ë° ìˆ˜ì§ ìŠ¬ë¼ì´ë“œ ì• ë‹ˆë©”ì´ì…˜ì— ì‚¬ìš©ë¨ (ë„¤ì´í‹°ë¸Œ í•˜ë“œì›¨ì–´ ê°€ì†ì„ ì‚¬ìš©í•©ë‹ˆë‹¤). `false`ì˜ ê²½ìš°, jQueryì˜ animate()ê°€ ì‚¬ìš©ë©ë‹ˆë‹¤.
 ```
 default: true
 options: boolean (true / false)
 ```
 
 **preloadImages**
-'all' ÀÌ¸é, ½½¶óÀÌ´õ¸¦ ½ÃÀÛÇÏ±â Àü¿¡ ¸ğµç ÀÌ¹ÌÁö¸¦ ¹Ì¸®·Îµå. 'visible' ÀÌ¸é, ½½¶óÀÌ´õ¸¦ ½ÃÀÛÇÏ±â Àü¿¡ Ã³À½ º¼ ½½¶óÀÌµåÀÇ ÀÌ¹ÌÁö¸¸ ¹Ì¸®·Îµå (tip: ¸ğµç ½½¶óÀÌ´õÀÇ Å©±â°¡ µ¿ÀÏÇÑ°æ¿ì 'visible' »ç¿ë)
+'all' ì´ë©´, ìŠ¬ë¼ì´ë”ë¥¼ ì‹œì‘í•˜ê¸° ì „ì— ëª¨ë“  ì´ë¯¸ì§€ë¥¼ ë¯¸ë¦¬ë¡œë“œ. 'visible' ì´ë©´, ìŠ¬ë¼ì´ë”ë¥¼ ì‹œì‘í•˜ê¸° ì „ì— ì²˜ìŒ ë³¼ ìŠ¬ë¼ì´ë“œì˜ ì´ë¯¸ì§€ë§Œ ë¯¸ë¦¬ë¡œë“œ (tip: ëª¨ë“  ìŠ¬ë¼ì´ë”ì˜ í¬ê¸°ê°€ ë™ì¼í•œê²½ìš° 'visible' ì‚¬ìš©)
 ```
 default: 'visible'
 options: 'all', 'visible'
 ```
 
 **touchEnabled**
-<code>true</code>ÀÌ¸é, ½½¶óÀÌ´õ¿¡ ÅÍÄ¡ swipe ÀüÈ¯À» Çã¿ëÇÕ´Ï´Ù
+<code>true</code>ì´ë©´, ìŠ¬ë¼ì´ë”ì— í„°ì¹˜ swipe ì „í™˜ì„ í—ˆìš©í•©ë‹ˆë‹¤
 ```
 default: true
 options: boolean (true / false)
 ```
 
 **swipeThreshold**
-ÇÈ¼¿ÀÇ ¾çÀº ÅÍÄ¡ swipe ½½¶óÀÌµå ÀüÈ¯À» ½ÇÇàÇÏ±â À§ÇØ ÃÊ°ú ÇÒ ÇÊ¿ä°¡ÀÖ´Ù. Âü°í: <code>touchEnabled: true</code>¿¡¸¸ »ç¿ë
+í”½ì…€ì˜ ì–‘ì€ í„°ì¹˜ swipe ìŠ¬ë¼ì´ë“œ ì „í™˜ì„ ì‹¤í–‰í•˜ê¸° ìœ„í•´ ì´ˆê³¼ í•  í•„ìš”ê°€ìˆë‹¤. ì°¸ê³ : <code>touchEnabled: true</code>ì—ë§Œ ì‚¬ìš©
 ```
 default: 50
 options: integer
@@ -238,42 +238,42 @@ options: string
 ###Pager
 
 **pager**
-<code>true</code>ÀÌ¸é, pager°¡ Ãß°¡µË´Ï´Ù
+<code>true</code>ì´ë©´, pagerê°€ ì¶”ê°€ë©ë‹ˆë‹¤
 ```
 default: true
 options: boolean (true / false)
 ```
 
 **pagerType**
-<code>'full'</code>ÀÌ¸é, pager ¸µÅ©´Â °¢ ½½¶óÀÌµå¿¡ ´ëÇØ »ı¼ºµË´Ï´Ù. <code>'short'</code>ÀÌ¸é, x / y pager°¡ »ç¿ëµË´Ï´Ù (ex. 1 / 5)
+<code>'full'</code>ì´ë©´, pager ë§í¬ëŠ” ê° ìŠ¬ë¼ì´ë“œì— ëŒ€í•´ ìƒì„±ë©ë‹ˆë‹¤. <code>'short'</code>ì´ë©´, x / y pagerê°€ ì‚¬ìš©ë©ë‹ˆë‹¤ (ex. 1 / 5)
 ```
 default: 'full'
 options: 'full', 'short'
 ```
 
 **pagerShortSeparator**
-<code>pagerType: 'short'</code>ÀÌ¸é, pager´Â ºĞ¸® ¹®ÀÚ·Î ÀÌ °ªÀ» »ç¿ëÇÕ´Ï´Ù
+<code>pagerType: 'short'</code>ì´ë©´, pagerëŠ” ë¶„ë¦¬ ë¬¸ìë¡œ ì´ ê°’ì„ ì‚¬ìš©í•©ë‹ˆë‹¤
 ```
 default: ' / '
 options: string
 ```
 
 **pagerSelector**
-pager ¼¿·ºÅÍ·Î ¿¤¸®¸ÕÆ®¸¦ »ç¿ëÇÕ´Ï´Ù. ±âº»ÀûÀ¸·Î È£Ãâ±â´Â bx-viewport¿¡ Ãß°¡µË´Ï´Ù
+pager ì…€ë ‰í„°ë¡œ ì—˜ë¦¬ë¨¼íŠ¸ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. ê¸°ë³¸ì ìœ¼ë¡œ í˜¸ì¶œê¸°ëŠ” bx-viewportì— ì¶”ê°€ë©ë‹ˆë‹¤
 ```
 default: ''
 options: jQuery selector
 ```
 
 **pagerCustom**
-ºÎ¸ğ ¿ä¼Ò°¡ pager·Î¼­ ÀÌ¿ëµÈ´Ù. ºÎ¸ğ ¿ä¼Ò´Â °¢ ½½¶óÀÌµå¿¡ ´ëÇÑ <code>&lt;a data-slide-index="x"&gt;</code>¸¦ Æ÷ÇÔÇØ¾ßÇÕ´Ï´Ù. ÇÏÁö¸¸ µ¿Àû carousels°ú ÇÔ²² »ç¿ëÇØ¾ßÇÕ´Ï´Ù.
+ë¶€ëª¨ ìš”ì†Œê°€ pagerë¡œì„œ ì´ìš©ëœë‹¤. ë¶€ëª¨ ìš”ì†ŒëŠ” ê° ìŠ¬ë¼ì´ë“œì— ëŒ€í•œ <code>&lt;a data-slide-index="x"&gt;</code>ë¥¼ í¬í•¨í•´ì•¼í•©ë‹ˆë‹¤. í•˜ì§€ë§Œ ë™ì  carouselsê³¼ í•¨ê»˜ ì‚¬ìš©í•´ì•¼í•©ë‹ˆë‹¤.
 ```
 default: null
 options: jQuery selector
 ```
 
 **buildPager**
-Á¦°øµÇ´Â °æ¿ì, ÇÔ¼ö´Â ¸ğµç ½½¶óÀÌµå ¿ä¼ÒÀÌ¸ç, ¹İÈ¯µÈ °ªÀº ÆäÀÌÀú Ç×¸ñ ¸¶Å©¾÷À¸·Î »ç¿ëµË´Ï´Ù. <br />ÀÚ¼¼ÇÑ ±¸ÇöÀ»À§ÇÑ <a href="http://bxslider.com/examples">¿¹Á¦</a>¸¦ ÂüÁ¶ÇÏ½Ê½Ã¿À.
+ì œê³µë˜ëŠ” ê²½ìš°, í•¨ìˆ˜ëŠ” ëª¨ë“  ìŠ¬ë¼ì´ë“œ ìš”ì†Œì´ë©°, ë°˜í™˜ëœ ê°’ì€ í˜ì´ì € í•­ëª© ë§ˆí¬ì—…ìœ¼ë¡œ ì‚¬ìš©ë©ë‹ˆë‹¤. <br />ìì„¸í•œ êµ¬í˜„ì„ìœ„í•œ <a href="http://bxslider.com/examples">ì˜ˆì œ</a>ë¥¼ ì°¸ì¡°í•˜ì‹­ì‹œì˜¤.
 ```
 default: null
 options: function(slideIndex)
@@ -284,77 +284,77 @@ options: function(slideIndex)
 ###Controls
 
 **controls**
-<code>true</code>ÀÌ¸é, "Next" / "Prev" ÄÁÆ®·ÑÀÌ Ãß°¡µË´Ï´Ù
+<code>true</code>ì´ë©´, "Next" / "Prev" ì»¨íŠ¸ë¡¤ì´ ì¶”ê°€ë©ë‹ˆë‹¤
 ```
 default: true
 options: boolean (true / false)
 ```
 
 **nextText**
-ÅØ½ºÆ®°¡ "Next" Á¦¾î¿¡ »ç¿ëµË´Ï´Ù.
+í…ìŠ¤íŠ¸ê°€ "Next" ì œì–´ì— ì‚¬ìš©ë©ë‹ˆë‹¤.
 ```
 default: 'Next'
 options: string
 ```
 
 **prevText**
-ÅØ½ºÆ®°¡ "Prev" Á¦¾î¿¡ »ç¿ëµË´Ï´Ù.
+í…ìŠ¤íŠ¸ê°€ "Prev" ì œì–´ì— ì‚¬ìš©ë©ë‹ˆë‹¤.
 ```
 default: 'Prev'
 options: string
 ```
 
 **nextSelector**
-"Next" Á¦¾î¿¡ »ç¿ëÇÒ ¿¤¸®¸ÕÆ® ¿ä¼Ò
+"Next" ì œì–´ì— ì‚¬ìš©í•  ì—˜ë¦¬ë¨¼íŠ¸ ìš”ì†Œ
 ```
 default: null
 options: jQuery selector
 ```
 
 **prevSelector**
-"Prev" Á¦¾î¿¡ »ç¿ëÇÒ ¿¤¸®¸ÕÆ® ¿ä¼Ò
+"Prev" ì œì–´ì— ì‚¬ìš©í•  ì—˜ë¦¬ë¨¼íŠ¸ ìš”ì†Œ
 ```
 default: null
 options: jQuery selector
 ```
 
 **autoControls**
-<code>true</code>ÀÌ¸é, "Start" / "Stop" ÄÁÆ®·Ñ Ãß°¡
+<code>true</code>ì´ë©´, "Start" / "Stop" ì»¨íŠ¸ë¡¤ ì¶”ê°€
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **startText**
-ÅØ½ºÆ®°¡ "Start" Á¦¾î¿¡ »ç¿ëµË´Ï´Ù.
+í…ìŠ¤íŠ¸ê°€ "Start" ì œì–´ì— ì‚¬ìš©ë©ë‹ˆë‹¤.
 ```
 default: 'Start'
 options: string
 ```
 
 **stopText**
-ÅØ½ºÆ®°¡ "Stop" Á¦¾î¿¡ »ç¿ëµË´Ï´Ù.
+í…ìŠ¤íŠ¸ê°€ "Stop" ì œì–´ì— ì‚¬ìš©ë©ë‹ˆë‹¤.
 ```
 default: 'Stop'
 options: string
 ```
 
 **autoControlsCombine**
-½½¶óÀÌµå ¼î¸¦ Àç»ıÇÏ¸é "Stop" ÄÁÆ®·ÑÀÌ Ç¥½ÃµÇ°í ¹İ´ëÀÇ °æ¿ìµµ ¸¶Âù°¡Áö ÀÔ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œ ì‡¼ë¥¼ ì¬ìƒí•˜ë©´ "Stop" ì»¨íŠ¸ë¡¤ì´ í‘œì‹œë˜ê³  ë°˜ëŒ€ì˜ ê²½ìš°ë„ ë§ˆì°¬ê°€ì§€ ì…ë‹ˆë‹¤.
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **autoControlsSelector**
-auto(ÀÚµ¿½ÇÇà) Á¦¾î¿¡ »ç¿ëµÇ´Â ¿¤¸®¸ÕÆ® ¿ä¼Ò¸¦ ¼±ÅÃÇÕ´Ï´Ù.
+auto(ìë™ì‹¤í–‰) ì œì–´ì— ì‚¬ìš©ë˜ëŠ” ì—˜ë¦¬ë¨¼íŠ¸ ìš”ì†Œë¥¼ ì„ íƒí•©ë‹ˆë‹¤.
 ```
 default: null
 options: jQuery selector
 ```
 
 **keyboardEnabled**
-½½¶óÀÌ´õ¿¡ ´ëÇÑ Å°º¸µå ³×ºñ°ÔÀÌ¼ÇÀ» È°¼ºÈ­ÇÕ´Ï´Ù.
+ìŠ¬ë¼ì´ë”ì— ëŒ€í•œ í‚¤ë³´ë“œ ë„¤ë¹„ê²Œì´ì…˜ì„ í™œì„±í™”í•©ë‹ˆë‹¤.
 ```
 default: false
 options: boolean (true / false)
@@ -364,48 +364,48 @@ options: boolean (true / false)
 ###Auto
 
 **auto**
-½½¶óÀÌµå°¡ ÀÚµ¿½ÇÇàÀ¸·Î ÀüÈ¯µË´Ï´Ù
+ìŠ¬ë¼ì´ë“œê°€ ìë™ì‹¤í–‰ìœ¼ë¡œ ì „í™˜ë©ë‹ˆë‹¤
 ```
 default: false
 options: boolean (true / false)
 ```
 **stopAutoOnClick**
-ÀÚµ¿½ÇÇàÀ» Áß´ÜµË´Ï´Ù
+ìë™ì‹¤í–‰ì„ ì¤‘ë‹¨ë©ë‹ˆë‹¤
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **pause**
-ÀÚµ¿½ÇÇà ÀüÈ¯ »çÀÌÀÇ ½Ã°£(ms ´ÜÀ§)
+ìë™ì‹¤í–‰ ì „í™˜ ì‚¬ì´ì˜ ì‹œê°„(ms ë‹¨ìœ„)
 ```
 default: 4000
 options: integer
 ```
 
 **autoStart**
-·ÎµåµÉ¶§ ÀÚµ¿½ÇÇàÀÌ ½ÃÀÛÇÕ´Ï´Ù. ¸¸¾à <code>false</code>ÀÌ¸é, "Start" ÄÁÆ®·ÑÀ» Å¬¸¯ÇØ¾ß ½ÃÀÛµË´Ï´Ù.
+ë¡œë“œë ë•Œ ìë™ì‹¤í–‰ì´ ì‹œì‘í•©ë‹ˆë‹¤. ë§Œì•½ <code>false</code>ì´ë©´, "Start" ì»¨íŠ¸ë¡¤ì„ í´ë¦­í•´ì•¼ ì‹œì‘ë©ë‹ˆë‹¤.
 ```
 default: true
 options: boolean (true / false)
 ```
 
 **autoDirection**
-ÀÚµ¿À¸·Î Àç»ıµÇ´Â ½½¶óÀÌµå ÀüÈ¯ ¹æÇâÀÔ´Ï´Ù.
+ìë™ìœ¼ë¡œ ì¬ìƒë˜ëŠ” ìŠ¬ë¼ì´ë“œ ì „í™˜ ë°©í–¥ì…ë‹ˆë‹¤.
 ```
 default: 'next'
 options: 'next', 'prev'
 ```
 
 **autoHover**
-¸¶¿ì½º·Î ½½¶óÀÌ´õ¸¦ °¡¸®Å³ ¶§ ½½¶óÀÌµå°¡ ÀÏ½ÃÁßÁö µË´Ï´Ù
+ë§ˆìš°ìŠ¤ë¡œ ìŠ¬ë¼ì´ë”ë¥¼ ê°€ë¦¬í‚¬ ë•Œ ìŠ¬ë¼ì´ë“œê°€ ì¼ì‹œì¤‘ì§€ ë©ë‹ˆë‹¤
 ```
 default: false
 options: boolean (true / false)
 ```
 
 **autoDelay**
-ÀÚµ¿½ÇÇàÀÌ ½ÃÀÛµÇ±âÀüÀÇ ±â´Ù¸®´Â ½Ã°£ÀÔ´Ï´Ù.
+ìë™ì‹¤í–‰ì´ ì‹œì‘ë˜ê¸°ì „ì˜ ê¸°ë‹¤ë¦¬ëŠ” ì‹œê°„ì…ë‹ˆë‹¤.
 ```
 default: 0
 options: integer
@@ -416,35 +416,35 @@ options: integer
 ###Carousel
 
 **minSlides**
-½½¶óÀÌµåÀÇ ÃÖ¼Ò ¼ö¸¦ Ç¥½ÃÇÕ´Ï´Ù. Ä³·¯¼¿ÀÌ ¿ø·¡ Å©±âº¸´Ù ÀÛ¾ÆÁú °æ¿ì ½½¶óÀÌµå Å©±â°¡ µÉ °ÍÀÔ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œì˜ ìµœì†Œ ìˆ˜ë¥¼ í‘œì‹œí•©ë‹ˆë‹¤. ìºëŸ¬ì…€ì´ ì›ë˜ í¬ê¸°ë³´ë‹¤ ì‘ì•„ì§ˆ ê²½ìš° ìŠ¬ë¼ì´ë“œ í¬ê¸°ê°€ ë  ê²ƒì…ë‹ˆë‹¤.
 ```
 default: 1
 options: integer
 ```
 
 **maxSlides**
-½½¶óÀÌµåÀÇ ÃÖ´ë ¼ö¸¦ Ç¥½ÃÇÕ´Ï´Ù. ÄÁº£ÀÌ¾î°¡ ¿ø·¡ Å©±âº¸´Ù Ä¿Áö¸é ½½¶óÀÌµåµµ ÀÚµ¿ Å°¿öÁı´Ï´Ù.
+ìŠ¬ë¼ì´ë“œì˜ ìµœëŒ€ ìˆ˜ë¥¼ í‘œì‹œí•©ë‹ˆë‹¤. ì»¨ë² ì´ì–´ê°€ ì›ë˜ í¬ê¸°ë³´ë‹¤ ì»¤ì§€ë©´ ìŠ¬ë¼ì´ë“œë„ ìë™ í‚¤ì›Œì§‘ë‹ˆë‹¤.
 ```
 default: 1
 options: integer
 ```
 
 **moveSlides**
-ÀÌ¼ıÀÚÀÇ ½½¶óÀÌµå·Î ÀÌµ¿ÇÕ´Ï´Ù. ÀÌ°ªÀ¸·Î ÇØ¾ßµË´Ï´Ù <code>>= minSlides</code>, ±×¸®°í <code><= maxSlides</code>. ¸¸¾à 0ÀÎ°æ¿ì (±âº»°ª), ½½¶óÀÌµå¿¡ º¸¿©Áø ¼ıÀÚ·Î ÀÌµ¿µË´Ï´Ù.
+ì´ìˆ«ìì˜ ìŠ¬ë¼ì´ë“œë¡œ ì´ë™í•©ë‹ˆë‹¤. ì´ê°’ìœ¼ë¡œ í•´ì•¼ë©ë‹ˆë‹¤ <code>>= minSlides</code>, ê·¸ë¦¬ê³  <code><= maxSlides</code>. ë§Œì•½ 0ì¸ê²½ìš° (ê¸°ë³¸ê°’), ìŠ¬ë¼ì´ë“œì— ë³´ì—¬ì§„ ìˆ«ìë¡œ ì´ë™ë©ë‹ˆë‹¤.
 ```
 default: 0
 options: integer
 ```
 
 **slideWidth**
-°¢ ½½¶óÀÌµåÀÇ ÆøÀÔ´Ï´Ù. ÀÌ ¼³Á¤Àº ¸ğµç ¼öÆò Ä³·¯¼¿¿¡ ÇÊ¿äÇÕ´Ï´Ù!
+ê° ìŠ¬ë¼ì´ë“œì˜ í­ì…ë‹ˆë‹¤. ì´ ì„¤ì •ì€ ëª¨ë“  ìˆ˜í‰ ìºëŸ¬ì…€ì— í•„ìš”í•©ë‹ˆë‹¤!
 ```
 default: 0
 options: integer
 ```
 
 **shrinkItems**
-Ä³·¯¼¿Àº ÀüÃ¼ Ç×¸ñÀ» Ç¥½ÃÇÏ°í maxSlides / MinSlides¿¡ ±âÃÊÇÑ ºäÆ÷Æ®¿¡ ¸Â°Ô ÀÌ¹ÌÁö¸¦ Ãà¼ÒÇÒ °ÍÀÌ´Ù.
+ìºëŸ¬ì…€ì€ ì „ì²´ í•­ëª©ì„ í‘œì‹œí•˜ê³  maxSlides / MinSlidesì— ê¸°ì´ˆí•œ ë·°í¬íŠ¸ì— ë§ê²Œ ì´ë¯¸ì§€ë¥¼ ì¶•ì†Œí•  ê²ƒì´ë‹¤.
 ```
 default: false
 options: boolean (true / false)
@@ -456,7 +456,7 @@ options: boolean (true / false)
 ###Keyboard
 
 **keyboardEnabled**
-½½¶óÀÌµå¸¦ Å°º¸µå·Î Á¦¾î ÇÒ ¼ö ÀÖ½À´Ï´Ù. ½½¶óÀÌ´õ¸¦ º¼ ¼ö ¾ø´Â °æ¿ì Å°´©¸£±â(Keypress)´Â ¹«½ÃÇÕ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œë¥¼ í‚¤ë³´ë“œë¡œ ì œì–´ í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤. ìŠ¬ë¼ì´ë”ë¥¼ ë³¼ ìˆ˜ ì—†ëŠ” ê²½ìš° í‚¤ëˆ„ë¥´ê¸°(Keypress)ëŠ” ë¬´ì‹œí•©ë‹ˆë‹¤.
 ```
 default: false
 options: boolean (true / false)
@@ -469,14 +469,14 @@ options: boolean (true / false)
 ### Accessibility
 
 **ariaLive**
-½½¶óÀÌµå ¼Ó¼º¿¡ Aria Live¸¦ Ãß°¡ÇÕ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œ ì†ì„±ì— Aria Liveë¥¼ ì¶”ê°€í•©ë‹ˆë‹¤.
 ```
 default: true
 options: boolean (true / false)
 ```
 
 **ariaHidden**
-º¸ÀÌÁö ¾Ê´Â ½½¶óÀÌµå¿¡ Aria Hidden ¼Ó¼ºÀ» Ãß°¡ÇÕ´Ï´Ù.
+ë³´ì´ì§€ ì•ŠëŠ” ìŠ¬ë¼ì´ë“œì— Aria Hidden ì†ì„±ì„ ì¶”ê°€í•©ë‹ˆë‹¤.
 ```
 default: true
 options: boolean (true / false)
@@ -489,65 +489,65 @@ options: boolean (true / false)
 ###Callbacks
 
 **onSliderLoad**
-½½¶óÀÌ´õ°¡ ¿ÏÀüÈ÷ ·ÎµåµÈ Á÷ÈÄ ½ÇÇà
+ìŠ¬ë¼ì´ë”ê°€ ì™„ì „íˆ ë¡œë“œëœ ì§í›„ ì‹¤í–‰
 ```
 default: function(){}
 options: function(currentIndex){ // your code here }
 arguments:
-  currentIndex: ÇöÀç ½½¶óÀÌ´õÀÇ ÀÎµ¦½º
+  currentIndex: í˜„ì¬ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤
 ```
 
 **onSliderResize**
-½½¶óÀÌ´õÀÇ Å©±â°¡ º¯°æµÈ ÈÄ Áï½Ã ½ÇÇà
+ìŠ¬ë¼ì´ë”ì˜ í¬ê¸°ê°€ ë³€ê²½ëœ í›„ ì¦‰ì‹œ ì‹¤í–‰
 ```
 default: function(){}
 options: function(currentIndex){ // your code here }
 arguments:
-  currentIndex: ÇöÀç ½½¶óÀÌ´õÀÇ ÀÎµ¦½º
+  currentIndex: í˜„ì¬ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤
 ```
 
 **onSlideBefore**
-½½¶óÀÌµå ÀüÈ¯ Á÷Àü¿¡ ½ÇÇàÇÕ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œ ì „í™˜ ì§ì „ì— ì‹¤í–‰í•©ë‹ˆë‹¤.
 ```
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-    $slideElement: ´ë»ó¿ä¼Ò(jQuery element)
-    oldIndex: ÀÌÀü ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯Àü)
-    newIndex: ´ÙÀ½ ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯ÈÄ)
+    $slideElement: ëŒ€ìƒìš”ì†Œ(jQuery element)
+    oldIndex: ì´ì „ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜ì „)
+    newIndex: ë‹¤ìŒ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜í›„)
 ```
 
 **onSlideAfter**
-½½¶óÀÌµå ÀüÈ¯ ÈÄ Áï½Ã ½ÇÇàÇÕ´Ï´Ù. ÇÔ¼öÀÇ ÀÎ¼ö´Â ÇöÀç ½½¶óÀÌµå ¿ä¼Ò(ÀüÈ¯ÀÌ ¿Ï·á µÉ ¶§)ÀÔ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œ ì „í™˜ í›„ ì¦‰ì‹œ ì‹¤í–‰í•©ë‹ˆë‹¤. í•¨ìˆ˜ì˜ ì¸ìˆ˜ëŠ” í˜„ì¬ ìŠ¬ë¼ì´ë“œ ìš”ì†Œ(ì „í™˜ì´ ì™„ë£Œ ë  ë•Œ)ì…ë‹ˆë‹¤.
 ```
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-    $slideElement: ´ë»ó¿ä¼Ò(jQuery element)
-    oldIndex: ÀÌÀü ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯Àü)
-    newIndex: ´ÙÀ½ ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯ÈÄ)
+    $slideElement: ëŒ€ìƒìš”ì†Œ(jQuery element)
+    oldIndex: ì´ì „ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜ì „)
+    newIndex: ë‹¤ìŒ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜í›„)
 ```
 
 **onSlideNext**
-"Next" ½½¶óÀÌµå ÀüÈ¯ Á÷Àü¿¡ ½ÇÇàÇÕ´Ï´Ù. ÇÔ¼öÀÇ ÀÎ¼öÀÇ ´ë»óÀº ½½¶óÀÌµå (next)¿¤¸®¸ÕÆ®ÀÔ´Ï´Ù.
+"Next" ìŠ¬ë¼ì´ë“œ ì „í™˜ ì§ì „ì— ì‹¤í–‰í•©ë‹ˆë‹¤. í•¨ìˆ˜ì˜ ì¸ìˆ˜ì˜ ëŒ€ìƒì€ ìŠ¬ë¼ì´ë“œ (next)ì—˜ë¦¬ë¨¼íŠ¸ì…ë‹ˆë‹¤.
 ```
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-    $slideElement: ´ë»ó¿ä¼Ò(jQuery element)
-    oldIndex: ÀÌÀü ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯Àü)
-    newIndex: ´ÙÀ½ ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯ÈÄ)
+    $slideElement: ëŒ€ìƒìš”ì†Œ(jQuery element)
+    oldIndex: ì´ì „ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜ì „)
+    newIndex: ë‹¤ìŒ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜í›„)
 ```
 
 **onSlidePrev**
-"Prev" ½½¶óÀÌµå ÀüÈ¯ Á÷Àü¿¡ ½ÇÇàÇÕ´Ï´Ù. ÇÔ¼öÀÇ ÀÎ¼öÀÇ ´ë»óÀº ½½¶óÀÌµå (prev)¿¤¸®¸ÕÆ®ÀÔ´Ï´Ù.
+"Prev" ìŠ¬ë¼ì´ë“œ ì „í™˜ ì§ì „ì— ì‹¤í–‰í•©ë‹ˆë‹¤. í•¨ìˆ˜ì˜ ì¸ìˆ˜ì˜ ëŒ€ìƒì€ ìŠ¬ë¼ì´ë“œ (prev)ì—˜ë¦¬ë¨¼íŠ¸ì…ë‹ˆë‹¤.
 ```
 default: function(){}
 options: function($slideElement, oldIndex, newIndex){ // your code here }
 arguments:
-    $slideElement: ´ë»ó¿ä¼Ò(jQuery element)
-    oldIndex: ÀÌÀü ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯Àü)
-    newIndex: ´ÙÀ½ ½½¶óÀÌ´õÀÇ ÀÎµ¦½º(ÀüÈ¯ÈÄ)
+    $slideElement: ëŒ€ìƒìš”ì†Œ(jQuery element)
+    oldIndex: ì´ì „ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜ì „)
+    newIndex: ë‹¤ìŒ ìŠ¬ë¼ì´ë”ì˜ ì¸ë±ìŠ¤(ì „í™˜í›„)
 ```
 
 
@@ -556,7 +556,7 @@ arguments:
 ###Public methods
 
 **goToSlide**
-Á¦°øµÈ ½½¶óÀÌµå ÀÎµ¦½º¿¡ ½½¶óÀÌµå ÀüÈ¯À» ¼öÇàÇÕ´Ï´Ù (zero-based)
+ì œê³µëœ ìŠ¬ë¼ì´ë“œ ì¸ë±ìŠ¤ì— ìŠ¬ë¼ì´ë“œ ì „í™˜ì„ ìˆ˜í–‰í•©ë‹ˆë‹¤ (zero-based)
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -564,7 +564,7 @@ slider.goToSlide(3);
 ```
 
 **goToNextSlide**
-"Next" ½½¶óÀÌµå ÀüÈ¯À» ¼öÇàÇÕ´Ï´Ù
+"Next" ìŠ¬ë¼ì´ë“œ ì „í™˜ì„ ìˆ˜í–‰í•©ë‹ˆë‹¤
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -572,7 +572,7 @@ slider.goToNextSlide();
 ```
 
 **goToPrevSlide**
-"Prev" ½½¶óÀÌµå ÀüÈ¯À» ¼öÇàÇÕ´Ï´Ù
+"Prev" ìŠ¬ë¼ì´ë“œ ì „í™˜ì„ ìˆ˜í–‰í•©ë‹ˆë‹¤
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -580,7 +580,7 @@ slider.goToPrevSlide();
 ```
 
 **startAuto**
-½½¶óÀÌµåÀÇ ÀÚµ¿½ÇÇà(auto)À» ½ÃÀÛÇÕ´Ï´Ù. ¸¸¾à <code>false</code>ÀÌ¸é ¾÷µ¥ÀÌÆ®µÇ´Â ÀÚµ¿ ÄÁÆ®·ÑÀ» ¸·½À´Ï´Ù.
+ìŠ¬ë¼ì´ë“œì˜ ìë™ì‹¤í–‰(auto)ì„ ì‹œì‘í•©ë‹ˆë‹¤. ë§Œì•½ <code>false</code>ì´ë©´ ì—…ë°ì´íŠ¸ë˜ëŠ” ìë™ ì»¨íŠ¸ë¡¤ì„ ë§‰ìŠµë‹ˆë‹¤.
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -588,7 +588,7 @@ slider.startAuto();
 ```
 
 **stopAuto**
-½½¶óÀÌµåÀÇ ÀÚµ¿½ÇÇà(auto)À» ÁßÁöÇÕ´Ï´Ù. ¸¸¾à <code>false</code>ÀÌ¸é ¾÷µ¥ÀÌÆ®µÇ´Â ÀÚµ¿ ÄÁÆ®·ÑÀ» ¸·½À´Ï´Ù.
+ìŠ¬ë¼ì´ë“œì˜ ìë™ì‹¤í–‰(auto)ì„ ì¤‘ì§€í•©ë‹ˆë‹¤. ë§Œì•½ <code>false</code>ì´ë©´ ì—…ë°ì´íŠ¸ë˜ëŠ” ìë™ ì»¨íŠ¸ë¡¤ì„ ë§‰ìŠµë‹ˆë‹¤.
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -596,7 +596,7 @@ slider.stopAuto();
 ```
 
 **getCurrentSlide**
-ÇöÀç È°¼ºÈ­µÈ ½½¶óÀÌµå¸¦ ¹İÈ¯ÇÕ´Ï´Ù.
+í˜„ì¬ í™œì„±í™”ëœ ìŠ¬ë¼ì´ë“œë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -604,7 +604,7 @@ var current = slider.getCurrentSlide();
 ```
 
 **getSlideCount**
-½½¶óÀÌµåÀÇ ÃÑ °¹¼ö¸¦ ¹İÈ¯ÇÕ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œì˜ ì´ ê°¯ìˆ˜ë¥¼ ë°˜í™˜í•©ë‹ˆë‹¤.
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -612,7 +612,7 @@ var slideQty = slider.getSlideCount();
 ```
 
 **redrawSlider**
-½½¶óÀÌµå¸¦ ´Ù½Ã ±×¸³´Ï´Ù. ½½¶óÀÌµå¸¦ ¼û±èÈÄ ´Ù½Ã Ç¥½ÃÇÒ¶§ À¯¿ëÇÕ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œë¥¼ ë‹¤ì‹œ ê·¸ë¦½ë‹ˆë‹¤. ìŠ¬ë¼ì´ë“œë¥¼ ìˆ¨ê¹€í›„ ë‹¤ì‹œ í‘œì‹œí• ë•Œ ìœ ìš©í•©ë‹ˆë‹¤.
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -620,7 +620,7 @@ slider.redrawSlider();
 ```
 
 **reloadSlider**
-½½¶óÀÌµå¸¦ ¸®·ÎµåÇÕ´Ï´Ù. ½Ç½Ã°£À¸·Î ½½¶óÀÌµå¸¦ Ãß°¡ÇÒ¶§ À¯¿ëÇÕ´Ï´Ù. ¼³Á¤ÀÇ ¿É¼Ç °´Ã¼¸¦ ¹Ş¾ÆµéÀÔ´Ï´Ù.
+ìŠ¬ë¼ì´ë“œë¥¼ ë¦¬ë¡œë“œí•©ë‹ˆë‹¤. ì‹¤ì‹œê°„ìœ¼ë¡œ ìŠ¬ë¼ì´ë“œë¥¼ ì¶”ê°€í• ë•Œ ìœ ìš©í•©ë‹ˆë‹¤. ì„¤ì •ì˜ ì˜µì…˜ ê°ì²´ë¥¼ ë°›ì•„ë“¤ì…ë‹ˆë‹¤.
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -628,7 +628,7 @@ slider.reloadSlider();
 ```
 
 **destroySlider**
-½½¶óÀÌ´õ¸¦ ÆÄ±«(destroy)ÇÕ´Ï´Ù. ÀÌ°ÍÀº (½½¶óÀÌ´õ¸¦ È£ÃâÇÏ±â Àü¿¡) ´Ù½Ã ¿ø·¡ »óÅÂ·Î ¸ğµç ½½¶óÀÌ´õ ¿ä¼Ò¸¦ µÇµ¹¸³´Ï´Ù.
+ìŠ¬ë¼ì´ë”ë¥¼ íŒŒê´´(destroy)í•©ë‹ˆë‹¤. ì´ê²ƒì€ (ìŠ¬ë¼ì´ë”ë¥¼ í˜¸ì¶œí•˜ê¸° ì „ì—) ë‹¤ì‹œ ì›ë˜ ìƒíƒœë¡œ ëª¨ë“  ìŠ¬ë¼ì´ë” ìš”ì†Œë¥¼ ë˜ëŒë¦½ë‹ˆë‹¤.
 ```
 example:
 slider = $('.bxslider').bxSlider();
@@ -640,8 +640,8 @@ slider.destroySlider();
 
 
 * [Jquery README](../README.md)
-* [01_00_jquery_±âÃÊ¹®¼­](01_00_jquery_±âÃÊ¹®¼­.md)
-* [01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö](01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö.md)
+* [01_00_jquery_ê¸°ì´ˆë¬¸ì„œ](01_00_jquery_ê¸°ì´ˆë¬¸ì„œ.md)
+* [01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜](01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜.md)
 * [01_01_jquery_plugin_bxslider](01_01_jquery_plugin_bxslider.md)
 * [01_02_jquery_plugin_slidesjs](01_02_jquery_plugin_slidesjs.md)
 * [01_03_jquery_plugin_bpopup](01_03_jquery_plugin_bpopup.md)
@@ -650,5 +650,3 @@ slider.destroySlider();
 
 ----
 
-
-* [FrontEndStudy](../../README.md)
