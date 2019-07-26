@@ -5,501 +5,501 @@
 
 <table>
 	<tr>
-		<th>ºÐ·ù</th>
-		<th>³»¿ë</th>
-		<th>ÇÁ·ÎÆÛÆ¼ ¹× ¸Å¼­µå</th>
+		<th>ë¶„ë¥˜</th>
+		<th>ë‚´ìš©</th>
+		<th>í”„ë¡œí¼í‹° ë° ë§¤ì„œë“œ</th>
 	</tr>
 	<tr>
-		<td rowspan="4">ÀÏ¹Ý³ëµåÃ£±â</td>
-		<td>¾ÆÀÌµð·Î Ã£±â</td>
-		<td>$('#¾ÆÀÌµð')</td>
+		<td rowspan="4">ì¼ë°˜ë…¸ë“œì°¾ê¸°</td>
+		<td>ì•„ì´ë””ë¡œ ì°¾ê¸°</td>
+		<td>$('#ì•„ì´ë””')</td>
 	</tr>
 	<tr>
-		<td>¾ÆÀÌµð·Î Ã£±â</td>
-		<td>$('#¾ÆÀÌµð')</td>
+		<td>ì•„ì´ë””ë¡œ ì°¾ê¸°</td>
+		<td>$('#ì•„ì´ë””')</td>
 	</tr>
 	<tr>
-		<td>Å¬·¡½ºÀÌ¸§À¸·Î</td>
-		<td>$('Å¬·¡½ºÀÌ¸§')</td>
+		<td>í´ëž˜ìŠ¤ì´ë¦„ìœ¼ë¡œ</td>
+		<td>$('í´ëž˜ìŠ¤ì´ë¦„')</td>
 	</tr>
 	<tr>
-		<td>¼Ó¼ºÀ¸·Î Ã£±â</td>
-		<td>$('[¼Ó¼ºÀÌ¸§=°ª]')</td>
+		<td>ì†ì„±ìœ¼ë¡œ ì°¾ê¸°</td>
+		<td>$('[ì†ì„±ì´ë¦„=ê°’]')</td>
 	</tr>
 	<tr>
-		<td rowspan="7">Ã£Àº³ëµå <br>´Ù·ç±â</td>
-		<td>Ã£Àº °³¼ö ±¸ÇÏ±â</td>
-		<td>$´ë»ó.length</td>
+		<td rowspan="7">ì°¾ì€ë…¸ë“œ <br>ë‹¤ë£¨ê¸°</td>
+		<td>ì°¾ì€ ê°œìˆ˜ êµ¬í•˜ê¸°</td>
+		<td>$ëŒ€ìƒ.length</td>
 	</tr>
 	<tr>
-		<td>n¹øÂ° ³ëµå Á¢±ÙÇÏ±â</td>
-		<td>$´ë»ó.eq(index)</td>
+		<td>në²ˆì§¸ ë…¸ë“œ ì ‘ê·¼í•˜ê¸°</td>
+		<td>$ëŒ€ìƒ.eq(index)</td>
 	</tr>
 	<tr>
-		<td>DOM °´Ã¼Á¢±Ù</td>
-		<td>$´ë»ó.get(index) , $´ë»ó[index]</td>
+		<td>DOM ê°ì²´ì ‘ê·¼</td>
+		<td>$ëŒ€ìƒ.get(index) , $ëŒ€ìƒ[index]</td>
 	</tr>
 	<tr>
-		<td>¼øÂ÷ÀûÀ¸·Î Á¢±ÙÇÏ±â</td>
+		<td>ìˆœì°¨ì ìœ¼ë¡œ ì ‘ê·¼í•˜ê¸°</td>
 		<td>
-			<p>$´ë»ó.each(function(index) {</p>
-			<p>&nbsp;&nbsp; $(this) ¶Ç´Â $´ë»ó.eq(index)</p>
+			<p>$ëŒ€ìƒ.each(function(index) {</p>
+			<p>&nbsp;&nbsp; $(this) ë˜ëŠ” $ëŒ€ìƒ.eq(index)</p>
 			<p>})</p>
 <!-- <pre><code>
-$´ë»ó.each(function(index) {
-	$(this) ¶Ç´Â $´ë»ó.eq(index)
+$ëŒ€ìƒ.each(function(index) {
+	$(this) ë˜ëŠ” $ëŒ€ìƒ.eq(index)
 })
 </code></pre> -->
 		</td>
 	</tr>
 	<tr>
-		<td>³ëµåÁß¿¡¼­ Æ¯Á¤³ëµå¸¸ Ã£±â</td>
-		<td>$´ë»ó.filter('¼±ÅÃÀÚ')</td>
+		<td>ë…¸ë“œì¤‘ì—ì„œ íŠ¹ì •ë…¸ë“œë§Œ ì°¾ê¸°</td>
+		<td>$ëŒ€ìƒ.filter('ì„ íƒìž')</td>
 	</tr>
 	<tr>
-		<td>³ëµåÀÇ ÀÚ¼Õ³ëµåÁß Æ¯Á¤³ëµå Ã£±â</td>
-		<td>$´ë»ó.find('¼±ÅÃÀÚ')</td>
+		<td>ë…¸ë“œì˜ ìžì†ë…¸ë“œì¤‘ íŠ¹ì •ë…¸ë“œ ì°¾ê¸°</td>
+		<td>$ëŒ€ìƒ.find('ì„ íƒìž')</td>
 	</tr>
 	<tr>
-		<td>ÀÎµ¦½º °ª ±¸ÇÏ±â</td>
+		<td>ì¸ë±ìŠ¤ ê°’ êµ¬í•˜ê¸°</td>
 		<td>
-			<p>$´ë»ó.index()</p>
-			<p>$¸ñ·Ï.index($´ë»ó)</p>
-			<p>$¸ñ·Ï.index(´ë»óDOM°´Ã¼)</p>
+			<p>$ëŒ€ìƒ.index()</p>
+			<p>$ëª©ë¡.index($ëŒ€ìƒ)</p>
+			<p>$ëª©ë¡.index(ëŒ€ìƒDOMê°ì²´)</p>
 		</td>
 	</tr>
 
 	<tr>
-		<td rowspan="5">ÀÚ½Ä³ëµåÃ£±â</td>
-		<td>¸ðµç ÀÚ½Ä ³ëµå Ã£±â</td>
-		<td>$´ë»ó.children()</td>
+		<td rowspan="5">ìžì‹ë…¸ë“œì°¾ê¸°</td>
+		<td>ëª¨ë“  ìžì‹ ë…¸ë“œ ì°¾ê¸°</td>
+		<td>$ëŒ€ìƒ.children()</td>
 	</tr>
 	<tr>
-		<td>Æ¯Á¤ÀÚ½Ä³ëµå¸¸ Ã£±â</td>
-		<td>$´ë»ó.children('¼±ÅÃÀÚ')</td>
+		<td>íŠ¹ì •ìžì‹ë…¸ë“œë§Œ ì°¾ê¸°</td>
+		<td>$ëŒ€ìƒ.children('ì„ íƒìž')</td>
 	</tr>
 	<tr>
-		<td>Ã¹¹øÂ° ÀÚ½Ä ³ëµå Ã£±â</td>
+		<td>ì²«ë²ˆì§¸ ìžì‹ ë…¸ë“œ ì°¾ê¸°</td>
 		<td>
-			<p>$´ë»ó.children().first()</p>
-			<p>$´ë»ó.children().eq(0)</p>
-			<p>$´ë»ó.children(':first')</p>
-			<p>$´ë»ó.children(':eq(0)')</p>
+			<p>$ëŒ€ìƒ.children().first()</p>
+			<p>$ëŒ€ìƒ.children().eq(0)</p>
+			<p>$ëŒ€ìƒ.children(':first')</p>
+			<p>$ëŒ€ìƒ.children(':eq(0)')</p>
 		</td>
 	</tr>
 	<tr>
-		<td>¸¶Áö¸·¹øÂ° ÀÚ½Ä Ã£±â</td>
+		<td>ë§ˆì§€ë§‰ë²ˆì§¸ ìžì‹ ì°¾ê¸°</td>
 		<td>
-			<p>$´ë»ó.children().last()</p>
-			<p>$´ë»ó.children(':last')</p>
-			<p>$´ë»ó.children().eq($´ë»ó.children().length-1)</p>
-			<p>$´ë»ó.children(':eq('+$´ë»ó.children().length-1+')')</p>
-			<p>$´ë»ó.children().eq(-1)</p>
-			<p>$´ë»ó.children(':eq(-1)')</p>
+			<p>$ëŒ€ìƒ.children().last()</p>
+			<p>$ëŒ€ìƒ.children(':last')</p>
+			<p>$ëŒ€ìƒ.children().eq($ëŒ€ìƒ.children().length-1)</p>
+			<p>$ëŒ€ìƒ.children(':eq('+$ëŒ€ìƒ.children().length-1+')')</p>
+			<p>$ëŒ€ìƒ.children().eq(-1)</p>
+			<p>$ëŒ€ìƒ.children(':eq(-1)')</p>
 		</td>
 	</tr>
 	<tr>
-		<td>n¹øÂ° ÀÚ½Ä³ëµåÃ£±â</td>
+		<td>në²ˆì§¸ ìžì‹ë…¸ë“œì°¾ê¸°</td>
 		<td>
-			<p>$´ë»ó.children().eq(index)</p>
-			<p>$´ë»ó.children(':eq('+index=')')</p>
+			<p>$ëŒ€ìƒ.children().eq(index)</p>
+			<p>$ëŒ€ìƒ.children(':eq('+index=')')</p>
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="2">ºÎ¸ð ³ëµåÃ£±â</td>
-		<td>ºÎ¸ð ³ëµåÃ£±â</td>
-		<td>$´ë»ó.parent()</td>
+		<td rowspan="2">ë¶€ëª¨ ë…¸ë“œì°¾ê¸°</td>
+		<td>ë¶€ëª¨ ë…¸ë“œì°¾ê¸°</td>
+		<td>$ëŒ€ìƒ.parent()</td>
 	</tr>
 	<tr>
-		<td>Á¶»ó ³ëµåÃ£±â</td>
-		<td>$´ë»ó.parents(['¼±ÅÃÀÚ'])</td>
+		<td>ì¡°ìƒ ë…¸ë“œì°¾ê¸°</td>
+		<td>$ëŒ€ìƒ.parents(['ì„ íƒìž'])</td>
 	</tr>
 	<tr>
-		<td rowspan="2">ÇüÁ¦ ³ëµåÃ£±â</td>
-		<td>ÀÌÀü ÇüÁ¦ ³ëµåÃ£±â</td>
+		<td rowspan="2">í˜•ì œ ë…¸ë“œì°¾ê¸°</td>
+		<td>ì´ì „ í˜•ì œ ë…¸ë“œì°¾ê¸°</td>
 		<td>
-			<p>$´ë»ó.prev()</p>
-			<p>$´ë»ó.prevAll(['¼±ÅÃÀÚ'])</p>
+			<p>$ëŒ€ìƒ.prev()</p>
+			<p>$ëŒ€ìƒ.prevAll(['ì„ íƒìž'])</p>
 		</td>
 	</tr>
 	<tr>
-		<td>´ÙÀ½ ÇüÁ¦ ³ëµåÃ£±â</td>
+		<td>ë‹¤ìŒ í˜•ì œ ë…¸ë“œì°¾ê¸°</td>
 		<td>
-			<p>$´ë»ó.next()</p>
-			<p>$´ë»ó.nextAll(['¼±ÅÃÀÚ'])</p>
-		</td>
-	</tr>
-
-	<tr>
-		<td rowspan="5">³ëµå »ý¼º/Ãß°¡</td>
-		<td>³ëµå »ý¼º</td>
-		<td>$('Ãß°¡³ëµåDom ¹®ÀÚ¿­')</td>
-	</tr>
-	<tr>
-		<td>Ã¹¹øÂ° ÀÚ½Ä³ëµåÃß°¡</td>
-		<td>
-			<p>$ºÎ¸ð³ëµå.prepend($Ãß°¡³ëµå)</p>
-			<p>$Ãß°¡³ëµå.prependTo($ºÎ¸ð³ëµå)</p>
-		</td>
-	</tr>
-	<tr>
-		<td>¸¶Áö¸·¹øÂ° ÀÚ½Ä³ëµåÃß°¡</td>
-		<td>
-			<p>$ºÎ¸ð³ëµå.append($Ãß°¡³ëµå)</p>
-			<p>$Ãß°¡³ëµå.appendTo($ºÎ¸ð³ëµå)</p>
-		</td>
-	</tr>
-	<tr>
-		<td>Æ¯Á¤³ëµåÀÇ ÀÌÀüÀ§Ä¡¿¡ Ãß°¡</td>
-		<td>
-			<p>$Ãß°¡³ëµå.insertBefore($±âÁØ³ëµå)</p>
-			<p>$±âÁØ³ëµå.before($Ãß°¡³ëµå)</p>
-		</td>
-	</tr>
-	<tr>
-		<td>Æ¯Á¤³ëµåÀÇ ´ÙÀ½À§Ä¡¿¡ Ãß°¡</td>
-		<td>
-			<p>$Ãß°¡³ëµå.insertAfter($±âÁØ³ëµå)</p>
-			<p>$±âÁØ³ëµå.after($Ãß°¡³ëµå)</p>
+			<p>$ëŒ€ìƒ.next()</p>
+			<p>$ëŒ€ìƒ.nextAll(['ì„ íƒìž'])</p>
 		</td>
 	</tr>
 
 	<tr>
-		<td rowspan="4">³ëµå ÀÌµ¿</td>
-		<td>Ã¹¹øÂ° ÀÚ½Ä ³ëµå·Î ÀÌµ¿</td>
+		<td rowspan="5">ë…¸ë“œ ìƒì„±/ì¶”ê°€</td>
+		<td>ë…¸ë“œ ìƒì„±</td>
+		<td>$('ì¶”ê°€ë…¸ë“œDom ë¬¸ìžì—´')</td>
+	</tr>
+	<tr>
+		<td>ì²«ë²ˆì§¸ ìžì‹ë…¸ë“œì¶”ê°€</td>
 		<td>
-			<p>$ºÎ¸ð³ëµå.prepend($ÀÌµ¿³ëµå)</p>
-			<p>$ÀÌµ¿³ëµå.prependTo($Ãß°¡³ëµå)</p>
+			<p>$ë¶€ëª¨ë…¸ë“œ.prepend($ì¶”ê°€ë…¸ë“œ)</p>
+			<p>$ì¶”ê°€ë…¸ë“œ.prependTo($ë¶€ëª¨ë…¸ë“œ)</p>
 		</td>
 	</tr>
 	<tr>
-		<td>¸¶Áö¸·¹øÂ° ÀÚ½Ä ³ëµå·Î ÀÌµ¿</td>
+		<td>ë§ˆì§€ë§‰ë²ˆì§¸ ìžì‹ë…¸ë“œì¶”ê°€</td>
 		<td>
-			<p>$ºÎ¸ð³ëµå.append($ÀÌµ¿³ëµå)</p>
-			<p>$ÀÌµ¿³ëµå.appendTo($Ãß°¡³ëµå)</p>
+			<p>$ë¶€ëª¨ë…¸ë“œ.append($ì¶”ê°€ë…¸ë“œ)</p>
+			<p>$ì¶”ê°€ë…¸ë“œ.appendTo($ë¶€ëª¨ë…¸ë“œ)</p>
 		</td>
 	</tr>
 	<tr>
-		<td>Æ¯Á¤ ³ëµåÀÇ ÀÌÀü ³ëµå·Î ÀÌµ¿</td>
+		<td>íŠ¹ì •ë…¸ë“œì˜ ì´ì „ìœ„ì¹˜ì— ì¶”ê°€</td>
 		<td>
-			<p>$ÀÌµ¿³ëµå.insertBefor($±âÁØ³ëµå)</p>
-			<p>$±âÁØ³ëµå.before($ÀÌµ¿³ëµå)</p>
+			<p>$ì¶”ê°€ë…¸ë“œ.insertBefore($ê¸°ì¤€ë…¸ë“œ)</p>
+			<p>$ê¸°ì¤€ë…¸ë“œ.before($ì¶”ê°€ë…¸ë“œ)</p>
 		</td>
 	</tr>
 	<tr>
-		<td>Æ¯Á¤ ³ëµåÀÇ ´ÙÀ½ ³ëµå·Î ÀÌµ¿</td>
+		<td>íŠ¹ì •ë…¸ë“œì˜ ë‹¤ìŒìœ„ì¹˜ì— ì¶”ê°€</td>
 		<td>
-			<p>$ÀÌµ¿³ëµå.insertAfter($±âÁØ³ëµå)</p>
-			<p>$±âÁØ³ëµå.after($ÀÌµ¿³ëµå)</p>
-		</td>
-	</tr>
-	<tr>
-		<td rowspan="2">³ëµå Á¦°Å</td>
-		<td>Æ¯Á¤ ³ëµå Á¦°Å</td>
-		<td>$´ë»ó.remove()</td>
-	</tr>
-	<tr>
-		<td>¸ðµç ÀÚ½Ä ³ëµå Á¦°Å</td>
-		<td>$´ë»ó.children().remove()</td>
-	</tr>
-
-	<tr>
-		<td rowspan="4">³ëµå ³»¿ë <br>ÀÐ±â ¹× º¯°æ</td>
-		<td>³ëµå ³»¿ëÀ» ¹®ÀÚ¿­·Î ÀÐ±â</td>
-		<td>
-			<p>$´ë»ó.html() // ÅÂ±×³»¿ëÆ÷ÇÔ</p>
-			<p>$´ë»ó.text() // ÅÂ±×³»¿ëÁ¦¿Ü</p>
-		</td>
-	</tr>
-	<tr>
-		<td>³ëµå ³»¿ë ¼öÁ¤ÇÏ±â</td>
-		<td>
-			<p>$´ë»ó.html('¼öÁ¤ÇÒ ÅÂ±× ¹®ÀÚ¿­')</p>
-			<p>$´ë»ó.text('¼öÁ¤ÇÒ ÅØ½ºÆ®')</p>
-		</td>
-	</tr>
-	<tr>
-		<td>³ëµå³»¿ëÀ» ÀÌ¿ëÇØ ¿©·¯°³ÀÇ ÀÚ½Ä ³ëµå Ãß°¡ÇÏ±â</td>
-		<td>$´ë»ó.html('Ãß°¡ÇÒ ÅÂ±× ¹®ÀÚ¿­')</td>
-	</tr>
-	<tr>
-		<td>³ëµå ³»¿ëÀ» ÀÌ¿ëÇØ ¸ðµç ÀÚ½Ä ³ëµå Á¦°ÅÇÏ±â</td>
-		<td>$´ë»ó.html(')</td>
-	</tr>
-
-	<tr>
-		<td rowspan="4">½ºÅ¸ÀÏ ´Ù·ç±â</td>
-		<td>½ºÅ¸ÀÏ °ª ±¸ÇÏ±â</td>
-		<td>
-			<p>$´ë»ó.css('½ºÅ¸ÀÏ¼Ó¼ºÀÌ¸§')</p>
-			<p>$´ë»ó.css(['½ºÅ¸ÀÏ¼Ó¼ºÀÌ¸§',])</p>
-		</td>
-	</tr>
-	<tr>
-		<td>½ºÅ¸ÀÏ °ª ¼³Á¤ÇÏ±â</td>
-		<td>
-			<p>$´ë»ó.css('½ºÅ¸ÀÏ¼Ó¼ºÀÌ¸§', °ª)</p>
-			<p>$´ë»ó.css({'½ºÅ¸ÀÏ¼Ó¼ºÀÌ¸§': °ª, '½ºÅ¸ÀÏ¼Ó¼ºÀÌ¸§': °ª})</p>
-		</td>
-	</tr>
-	<tr>
-		<td>Å¬·¡½º Ãß°¡</td>
-		<td>
-			<p>$´ë»ó.addClass('Å¬·¡½ºÀÌ¸§')</p>
-			<p>$´ë»ó.addClass('Å¬·¡½ºÀÌ¸§1 Å¬·¡½ºÀÌ¸§2 ...')</p>
-		</td>
-	</tr>
-	<tr>
-		<td>Å¬·¡½º »èÁ¦</td>
-		<td>
-			<p>$´ë»ó.removeClass('Å¬·¡½ºÀÌ¸§')</p>
-			<p>$´ë»ó.removeClass('Å¬·¡½ºÀÌ¸§1 Å¬·¡½ºÀÌ¸§2 ...')</p>
-		</td>
-	</tr>
-	<tr>
-		<td rowspan="2">¼Ó¼º ´Ù·ç±â</td>
-		<td>¼Ó¼º°ª ±¸ÇÏ±â</td>
-		<td>
-			<p>$´ë»ó.attr('¼Ó¼ºÀÌ¸§')</p>
-			<p>$´ë»ó.data('data-¼Ó¼ºÀÌ¸§')</p>
-		</td>
-	</tr>
-	<tr>
-		<td>¼Ó¼º°ª ¼³Á¤ÇÏ±â</td>
-		<td>
-			<p>$´ë»ó.attr('¼Ó¼ºÀÌ¸§', '°ª')</p>
-			<p>$´ë»ó.data('data-¼Ó¼ºÀÌ¸§', '°ª')</p>
+			<p>$ì¶”ê°€ë…¸ë“œ.insertAfter($ê¸°ì¤€ë…¸ë“œ)</p>
+			<p>$ê¸°ì¤€ë…¸ë“œ.after($ì¶”ê°€ë…¸ë“œ)</p>
 		</td>
 	</tr>
 
 	<tr>
-		<td rowspan="7">ÀÌº¥Æ® ´Ù·ç±â</td>
-		<td>ÀÏ¹Ý ÀÌº¥Æ® µî·Ï</td>
-		<td>$´ë»ó.on('ÀÌº¥Æ®ÀÌ¸§', ÀÌº¥Æ®¸®½º³Ê)</td>
-	</tr>
-	<tr>
-		<td>´ÜÃà ÀÌº¥Æ® µî·Ï</td>
-		<td>$´ë»ó.´ÜÃàÀÌº¥Æ®(ÀÌº¥Æ®¸®½º³Ê)</td>
-	</tr>
-	<tr>
-		<td>µî·ÏÇÑ ÀÌº¥Æ® Á¦°Å</td>
+		<td rowspan="4">ë…¸ë“œ ì´ë™</td>
+		<td>ì²«ë²ˆì§¸ ìžì‹ ë…¸ë“œë¡œ ì´ë™</td>
 		<td>
-			<p>$´ë»ó.off('click', »èÁ¦ÇÏ°í ½ÍÀº ÀÌº¥Æ®¸®½º³Ê¸í)</p>
-			<p>$´ë»ó.off('click')</p>
-			<p>$´ë»ó.off()</p>
+			<p>$ë¶€ëª¨ë…¸ë“œ.prepend($ì´ë™ë…¸ë“œ)</p>
+			<p>$ì´ë™ë…¸ë“œ.prependTo($ì¶”ê°€ë…¸ë“œ)</p>
 		</td>
 	</tr>
 	<tr>
-		<td>ÀÌº¥Æ® ÇÑ¹ø¸¸ ½ÇÇà</td>
-		<td>$´ë»ó.one(ÀÌº¥Æ®ÀÌ¸§, ÀÌº¥Æ®¸®½º³Ê)</td>
+		<td>ë§ˆì§€ë§‰ë²ˆì§¸ ìžì‹ ë…¸ë“œë¡œ ì´ë™</td>
+		<td>
+			<p>$ë¶€ëª¨ë…¸ë“œ.append($ì´ë™ë…¸ë“œ)</p>
+			<p>$ì´ë™ë…¸ë“œ.appendTo($ì¶”ê°€ë…¸ë“œ)</p>
+		</td>
 	</tr>
 	<tr>
-		<td>±âº» Çàµ¿ Ãë¼Ò</td>
-		<td>ÀÌº¥Æ®°´Ã¼.preventDefault()</td>
+		<td>íŠ¹ì • ë…¸ë“œì˜ ì´ì „ ë…¸ë“œë¡œ ì´ë™</td>
+		<td>
+			<p>$ì´ë™ë…¸ë“œ.insertBefor($ê¸°ì¤€ë…¸ë“œ)</p>
+			<p>$ê¸°ì¤€ë…¸ë“œ.before($ì´ë™ë…¸ë“œ)</p>
+		</td>
 	</tr>
 	<tr>
-		<td>¹öºí¸µ ¸ØÃß±â</td>
-		<td>ÀÌº¥Æ®°´Ã¼.stopPropagation()</td>
+		<td>íŠ¹ì • ë…¸ë“œì˜ ë‹¤ìŒ ë…¸ë“œë¡œ ì´ë™</td>
+		<td>
+			<p>$ì´ë™ë…¸ë“œ.insertAfter($ê¸°ì¤€ë…¸ë“œ)</p>
+			<p>$ê¸°ì¤€ë…¸ë“œ.after($ì´ë™ë…¸ë“œ)</p>
+		</td>
 	</tr>
 	<tr>
-		<td>¹öºí¸µÈ°¿ë ÇÏ³ªÀÇ ÀÌº¥Æ®</td>
-		<td>$´ë»ó.on('ÀÌº¥Æ®¸í', '¼±ÅÃÀÚ', ÀÌº¥Æ®¸®½º³Ê)</td>
+		<td rowspan="2">ë…¸ë“œ ì œê±°</td>
+		<td>íŠ¹ì • ë…¸ë“œ ì œê±°</td>
+		<td>$ëŒ€ìƒ.remove()</td>
+	</tr>
+	<tr>
+		<td>ëª¨ë“  ìžì‹ ë…¸ë“œ ì œê±°</td>
+		<td>$ëŒ€ìƒ.children().remove()</td>
 	</tr>
 
 	<tr>
-		<td rowspan="5">¿ä¼ÒÀÇ À§Ä¡ <br>¹× <br>Å©±â °ü·Ã±â´É</td>
-		<td>ºÎ¸ð ÁÂÇ¥ ³ëµå ±¸ÇÏ±â</td>
-		<td>$´ë»ó.offsetParent()</td>
-	</tr>
-	<tr>
-		<td>Áö¿ª ÁÂÇ¥ À§Ä¡ ´Ù·ç±â</td>
+		<td rowspan="4">ë…¸ë“œ ë‚´ìš© <br>ì½ê¸° ë° ë³€ê²½</td>
+		<td>ë…¸ë“œ ë‚´ìš©ì„ ë¬¸ìžì—´ë¡œ ì½ê¸°</td>
 		<td>
-			<p>Áö¿ªÁÂÇ¥ À§Ä¡ ±¸ÇÏ±â</p>
-			<p>$´ë»ó.position().left</p>
-			<p>$´ë»ó.position().top</p>
-			<p>&nbsp;</p>
-			<p>Áö¿ªÁÂÇ¥ À§Ä¡ ¼³Á¤ÇÏ±â</p>
-			<p>$´ë»ó.css('left', À§Ä¡°ª)</p>
-			<p>¶Ç´Â</p>
-			<p>$´ë»ó.css({left: À§Ä¡°ª, top: À§Ä¡°ª})</p>
+			<p>$ëŒ€ìƒ.html() // íƒœê·¸ë‚´ìš©í¬í•¨</p>
+			<p>$ëŒ€ìƒ.text() // íƒœê·¸ë‚´ìš©ì œì™¸</p>
 		</td>
 	</tr>
 	<tr>
-		<td>Àü¿ª ÁÂÇ¥ À§Ä¡ ´Ù·ç±â</td>
+		<td>ë…¸ë“œ ë‚´ìš© ìˆ˜ì •í•˜ê¸°</td>
 		<td>
-			<p>Àü¿ªÁÂÇ¥ À§Ä¡ ±¸ÇÏ±â</p>
-			<p>$´ë»ó.offset().left</p>
-			<p>$´ë»ó.offset().top</p>
-			<p>&nbsp;</p>
-			<p>Àü¿ªÁÂÇ¥ À§Ä¡ ¼³Á¤ÇÏ±â</p>
-			<p>$´ë»ó.offset({left: À§Ä¡°ª, top: À§Ä¡°ª})</p>
+			<p>$ëŒ€ìƒ.html('ìˆ˜ì •í•  íƒœê·¸ ë¬¸ìžì—´')</p>
+			<p>$ëŒ€ìƒ.text('ìˆ˜ì •í•  í…ìŠ¤íŠ¸')</p>
 		</td>
 	</tr>
 	<tr>
-		<td>¿ä¼Ò Å©±â ´Ù·ç±â</td>
+		<td>ë…¸ë“œë‚´ìš©ì„ ì´ìš©í•´ ì—¬ëŸ¬ê°œì˜ ìžì‹ ë…¸ë“œ ì¶”ê°€í•˜ê¸°</td>
+		<td>$ëŒ€ìƒ.html('ì¶”ê°€í•  íƒœê·¸ ë¬¸ìžì—´')</td>
+	</tr>
+	<tr>
+		<td>ë…¸ë“œ ë‚´ìš©ì„ ì´ìš©í•´ ëª¨ë“  ìžì‹ ë…¸ë“œ ì œê±°í•˜ê¸°</td>
+		<td>$ëŒ€ìƒ.html(')</td>
+	</tr>
+
+	<tr>
+		<td rowspan="4">ìŠ¤íƒ€ì¼ ë‹¤ë£¨ê¸°</td>
+		<td>ìŠ¤íƒ€ì¼ ê°’ êµ¬í•˜ê¸°</td>
 		<td>
-			<p>±âº» Å©±â ±¸ÇÏ±â</p>
-			<p>$´ë»ó.width()</p>
-			<p>$´ë»ó.height()</p>
-			<p>&nbsp;</p>
-			<p>±âº» Å©±â + padding Å©±â ±¸ÇÏ±â</p>
-			<p>$´ë»ó.innerWidth()</p>
-			<p>$´ë»ó.innewHeight()</p>
-			<p>&nbsp;</p>
-			<p>±âº»Å©±â + padding + border Å©±â ±¸ÇÏ±â</p>
-			<p>$´ë»ó.outerWidth()</p>
-			<p>$´ë»ó.outerHeight()</p>
-			<p>&nbsp;</p>
-			<p>±âº»Å©±â + padding + border + margin Å©±â ±¸ÇÏ±â</p>
-			<p>$´ë»ó.outerWidth(true)</p>
-			<p>$´ë»ó.outerHeight(true)</p>
-			<p>&nbsp;</p>
-			<p>±âº» Å©±â ¼³Á¤ÇÏ±â</p>
-			<p>$´ë»ó.width(Å©±â°ª)</p>
-			<p>$´ë»ó.height(Å©±â°ª)</p>
-			<p>&nbsp;</p>
-			<p>±âº» Å©±â + padding Å©±â ¼³Á¤ÇÏ±â</p>
-			<p>$´ë»ó.innerWidth(Å©±â°ª)</p>
-			<p>$´ë»ó.innerHeight(Å©±â°ª)</p>
+			<p>$ëŒ€ìƒ.css('ìŠ¤íƒ€ì¼ì†ì„±ì´ë¦„')</p>
+			<p>$ëŒ€ìƒ.css(['ìŠ¤íƒ€ì¼ì†ì„±ì´ë¦„',])</p>
 		</td>
 	</tr>
 	<tr>
-		<td>¿ä¼Ò ½ºÅ©·Ñ À§Ä¡ ´Ù·ç±â</td>
+		<td>ìŠ¤íƒ€ì¼ ê°’ ì„¤ì •í•˜ê¸°</td>
 		<td>
-			<p>½ºÅ©·Ñ À§Ä¡ ±¸ÇÏ±â</p>
-			<p>$´ë»ó.scrollLeft()</p>
-			<p>$´ë»ó.scrollTop()</p>
-			<p>&nbsp;</p>
-			<p>½ºÅ©·Ñ À§Ä¡ ¼³Á¤ÇÏ±â</p>
-			<p>$´ë»ó.scrollLeft(À§Ä¡°ª)</p>
-			<p>$´ë»ó.scrollTop(À§Ä¡°ª)</p>
+			<p>$ëŒ€ìƒ.css('ìŠ¤íƒ€ì¼ì†ì„±ì´ë¦„', ê°’)</p>
+			<p>$ëŒ€ìƒ.css({'ìŠ¤íƒ€ì¼ì†ì„±ì´ë¦„': ê°’, 'ìŠ¤íƒ€ì¼ì†ì„±ì´ë¦„': ê°’})</p>
+		</td>
+	</tr>
+	<tr>
+		<td>í´ëž˜ìŠ¤ ì¶”ê°€</td>
+		<td>
+			<p>$ëŒ€ìƒ.addClass('í´ëž˜ìŠ¤ì´ë¦„')</p>
+			<p>$ëŒ€ìƒ.addClass('í´ëž˜ìŠ¤ì´ë¦„1 í´ëž˜ìŠ¤ì´ë¦„2 ...')</p>
+		</td>
+	</tr>
+	<tr>
+		<td>í´ëž˜ìŠ¤ ì‚­ì œ</td>
+		<td>
+			<p>$ëŒ€ìƒ.removeClass('í´ëž˜ìŠ¤ì´ë¦„')</p>
+			<p>$ëŒ€ìƒ.removeClass('í´ëž˜ìŠ¤ì´ë¦„1 í´ëž˜ìŠ¤ì´ë¦„2 ...')</p>
+		</td>
+	</tr>
+	<tr>
+		<td rowspan="2">ì†ì„± ë‹¤ë£¨ê¸°</td>
+		<td>ì†ì„±ê°’ êµ¬í•˜ê¸°</td>
+		<td>
+			<p>$ëŒ€ìƒ.attr('ì†ì„±ì´ë¦„')</p>
+			<p>$ëŒ€ìƒ.data('data-ì†ì„±ì´ë¦„')</p>
+		</td>
+	</tr>
+	<tr>
+		<td>ì†ì„±ê°’ ì„¤ì •í•˜ê¸°</td>
+		<td>
+			<p>$ëŒ€ìƒ.attr('ì†ì„±ì´ë¦„', 'ê°’')</p>
+			<p>$ëŒ€ìƒ.data('data-ì†ì„±ì´ë¦„', 'ê°’')</p>
 		</td>
 	</tr>
 
 	<tr>
-		<td>¹®¼­ÀÇ À§Ä¡ <br>¹× Å©±â °ü·Ã ±â´É</td>
-		<td>¹®¼­ Å©±â ±¸ÇÏ±â</td>
+		<td rowspan="7">ì´ë²¤íŠ¸ ë‹¤ë£¨ê¸°</td>
+		<td>ì¼ë°˜ ì´ë²¤íŠ¸ ë“±ë¡</td>
+		<td>$ëŒ€ìƒ.on('ì´ë²¤íŠ¸ì´ë¦„', ì´ë²¤íŠ¸ë¦¬ìŠ¤ë„ˆ)</td>
+	</tr>
+	<tr>
+		<td>ë‹¨ì¶• ì´ë²¤íŠ¸ ë“±ë¡</td>
+		<td>$ëŒ€ìƒ.ë‹¨ì¶•ì´ë²¤íŠ¸(ì´ë²¤íŠ¸ë¦¬ìŠ¤ë„ˆ)</td>
+	</tr>
+	<tr>
+		<td>ë“±ë¡í•œ ì´ë²¤íŠ¸ ì œê±°</td>
+		<td>
+			<p>$ëŒ€ìƒ.off('click', ì‚­ì œí•˜ê³  ì‹¶ì€ ì´ë²¤íŠ¸ë¦¬ìŠ¤ë„ˆëª…)</p>
+			<p>$ëŒ€ìƒ.off('click')</p>
+			<p>$ëŒ€ìƒ.off()</p>
+		</td>
+	</tr>
+	<tr>
+		<td>ì´ë²¤íŠ¸ í•œë²ˆë§Œ ì‹¤í–‰</td>
+		<td>$ëŒ€ìƒ.one(ì´ë²¤íŠ¸ì´ë¦„, ì´ë²¤íŠ¸ë¦¬ìŠ¤ë„ˆ)</td>
+	</tr>
+	<tr>
+		<td>ê¸°ë³¸ í–‰ë™ ì·¨ì†Œ</td>
+		<td>ì´ë²¤íŠ¸ê°ì²´.preventDefault()</td>
+	</tr>
+	<tr>
+		<td>ë²„ë¸”ë§ ë©ˆì¶”ê¸°</td>
+		<td>ì´ë²¤íŠ¸ê°ì²´.stopPropagation()</td>
+	</tr>
+	<tr>
+		<td>ë²„ë¸”ë§í™œìš© í•˜ë‚˜ì˜ ì´ë²¤íŠ¸</td>
+		<td>$ëŒ€ìƒ.on('ì´ë²¤íŠ¸ëª…', 'ì„ íƒìž', ì´ë²¤íŠ¸ë¦¬ìŠ¤ë„ˆ)</td>
+	</tr>
+
+	<tr>
+		<td rowspan="5">ìš”ì†Œì˜ ìœ„ì¹˜ <br>ë° <br>í¬ê¸° ê´€ë ¨ê¸°ëŠ¥</td>
+		<td>ë¶€ëª¨ ì¢Œí‘œ ë…¸ë“œ êµ¬í•˜ê¸°</td>
+		<td>$ëŒ€ìƒ.offsetParent()</td>
+	</tr>
+	<tr>
+		<td>ì§€ì—­ ì¢Œí‘œ ìœ„ì¹˜ ë‹¤ë£¨ê¸°</td>
+		<td>
+			<p>ì§€ì—­ì¢Œí‘œ ìœ„ì¹˜ êµ¬í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.position().left</p>
+			<p>$ëŒ€ìƒ.position().top</p>
+			<p>&nbsp;</p>
+			<p>ì§€ì—­ì¢Œí‘œ ìœ„ì¹˜ ì„¤ì •í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.css('left', ìœ„ì¹˜ê°’)</p>
+			<p>ë˜ëŠ”</p>
+			<p>$ëŒ€ìƒ.css({left: ìœ„ì¹˜ê°’, top: ìœ„ì¹˜ê°’})</p>
+		</td>
+	</tr>
+	<tr>
+		<td>ì „ì—­ ì¢Œí‘œ ìœ„ì¹˜ ë‹¤ë£¨ê¸°</td>
+		<td>
+			<p>ì „ì—­ì¢Œí‘œ ìœ„ì¹˜ êµ¬í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.offset().left</p>
+			<p>$ëŒ€ìƒ.offset().top</p>
+			<p>&nbsp;</p>
+			<p>ì „ì—­ì¢Œí‘œ ìœ„ì¹˜ ì„¤ì •í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.offset({left: ìœ„ì¹˜ê°’, top: ìœ„ì¹˜ê°’})</p>
+		</td>
+	</tr>
+	<tr>
+		<td>ìš”ì†Œ í¬ê¸° ë‹¤ë£¨ê¸°</td>
+		<td>
+			<p>ê¸°ë³¸ í¬ê¸° êµ¬í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.width()</p>
+			<p>$ëŒ€ìƒ.height()</p>
+			<p>&nbsp;</p>
+			<p>ê¸°ë³¸ í¬ê¸° + padding í¬ê¸° êµ¬í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.innerWidth()</p>
+			<p>$ëŒ€ìƒ.innewHeight()</p>
+			<p>&nbsp;</p>
+			<p>ê¸°ë³¸í¬ê¸° + padding + border í¬ê¸° êµ¬í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.outerWidth()</p>
+			<p>$ëŒ€ìƒ.outerHeight()</p>
+			<p>&nbsp;</p>
+			<p>ê¸°ë³¸í¬ê¸° + padding + border + margin í¬ê¸° êµ¬í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.outerWidth(true)</p>
+			<p>$ëŒ€ìƒ.outerHeight(true)</p>
+			<p>&nbsp;</p>
+			<p>ê¸°ë³¸ í¬ê¸° ì„¤ì •í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.width(í¬ê¸°ê°’)</p>
+			<p>$ëŒ€ìƒ.height(í¬ê¸°ê°’)</p>
+			<p>&nbsp;</p>
+			<p>ê¸°ë³¸ í¬ê¸° + padding í¬ê¸° ì„¤ì •í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.innerWidth(í¬ê¸°ê°’)</p>
+			<p>$ëŒ€ìƒ.innerHeight(í¬ê¸°ê°’)</p>
+		</td>
+	</tr>
+	<tr>
+		<td>ìš”ì†Œ ìŠ¤í¬ë¡¤ ìœ„ì¹˜ ë‹¤ë£¨ê¸°</td>
+		<td>
+			<p>ìŠ¤í¬ë¡¤ ìœ„ì¹˜ êµ¬í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.scrollLeft()</p>
+			<p>$ëŒ€ìƒ.scrollTop()</p>
+			<p>&nbsp;</p>
+			<p>ìŠ¤í¬ë¡¤ ìœ„ì¹˜ ì„¤ì •í•˜ê¸°</p>
+			<p>$ëŒ€ìƒ.scrollLeft(ìœ„ì¹˜ê°’)</p>
+			<p>$ëŒ€ìƒ.scrollTop(ìœ„ì¹˜ê°’)</p>
+		</td>
+	</tr>
+
+	<tr>
+		<td>ë¬¸ì„œì˜ ìœ„ì¹˜ <br>ë° í¬ê¸° ê´€ë ¨ ê¸°ëŠ¥</td>
+		<td>ë¬¸ì„œ í¬ê¸° êµ¬í•˜ê¸°</td>
 		<td>
 			<p>$(document).width()</p>
 			<p>$(document).height()</p>
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="7">È­¸éÀÇ À§Ä¡ <br>¹× <br>Å©±â °ü·Ã±â´É <br><br>À©µµ¿ìÀÇ À§Ä¡ <br>¹× <br>Å©±â °ü·Ã±â´É</td>
-		<td>ÀüÃ¼ È­¸é Å©±â ±¸ÇÏ±â</td>
+		<td rowspan="7">í™”ë©´ì˜ ìœ„ì¹˜ <br>ë° <br>í¬ê¸° ê´€ë ¨ê¸°ëŠ¥ <br><br>ìœˆë„ìš°ì˜ ìœ„ì¹˜ <br>ë° <br>í¬ê¸° ê´€ë ¨ê¸°ëŠ¥</td>
+		<td>ì „ì²´ í™”ë©´ í¬ê¸° êµ¬í•˜ê¸°</td>
 		<td>
 			<p>screen.width</p>
 			<p>screen.height</p>
 		</td>
 	</tr>
 	<tr>
-		<td>À¯È¿ÇÑ ÀüÃ¼ È­¸é Å©±â ±¸ÇÏ±â</td>
+		<td>ìœ íš¨í•œ ì „ì²´ í™”ë©´ í¬ê¸° êµ¬í•˜ê¸°</td>
 		<td>
 			<p>screen.availWidth</p>
 			<p>screen.availHeight</p>
 		</td>
 	</tr>
 	<tr>
-		<td>À©µµ¿ì Å©±â ±¸ÇÏ±â</td>
+		<td>ìœˆë„ìš° í¬ê¸° êµ¬í•˜ê¸°</td>
 		<td>
-			<p>±âº» Å©±â ±¸ÇÏ±â</p>
+			<p>ê¸°ë³¸ í¬ê¸° êµ¬í•˜ê¸°</p>
 			<p>window.innerWidth</p>
 			<p>window.innerHeight</p>
 			<p>&nbsp;</p>
-			<p>±âº» Å©±â+¸Þ´º¹Ù+Åø¹Ù ¿µ¿ªÀÌ Æ÷ÇÔµÈ Å©±â ±¸ÇÏ±â</p>
+			<p>ê¸°ë³¸ í¬ê¸°+ë©”ë‰´ë°”+íˆ´ë°” ì˜ì—­ì´ í¬í•¨ëœ í¬ê¸° êµ¬í•˜ê¸°</p>
 			<p>$(window).width()</p>
 			<p>$(window).height()</p>
 			<p>&nbsp;</p>
-			<p>±âº» Å©±â+¸Þ´º¹Ù+Åø¹Ù+½ºÅ©·Ñ¹Ù ¿µ¿ªÀÌ Æ÷ÇÔµÈ Å©±â ±¸ÇÏ±â</p>
+			<p>ê¸°ë³¸ í¬ê¸°+ë©”ë‰´ë°”+íˆ´ë°”+ìŠ¤í¬ë¡¤ë°” ì˜ì—­ì´ í¬í•¨ëœ í¬ê¸° êµ¬í•˜ê¸°</p>
 			<p>window.outerWidth</p>
 			<p>window.outerHeight</p>
 		</td>
 	</tr>
 	<tr>
-		<td>À©µµ¿ì Å©±â ¼³Á¤ÇÏ±â</td>
+		<td>ìœˆë„ìš° í¬ê¸° ì„¤ì •í•˜ê¸°</td>
 		<td>window.resizeTo(width, height)</td>
 	</tr>
 	<tr>
-		<td>À©µµ¿ì º¯°æ ÀÌº¥Æ® Ã³¸®</td>
+		<td>ìœˆë„ìš° ë³€ê²½ ì´ë²¤íŠ¸ ì²˜ë¦¬</td>
 		<td>$(window).on('resize', function(){})</td>
 	</tr>
 	<tr>
-		<td>À©µµ¿ì À§Ä¡ ´Ù·ç±â</td>
+		<td>ìœˆë„ìš° ìœ„ì¹˜ ë‹¤ë£¨ê¸°</td>
 		<td>
-			<p>À§Ä¡°ª ±¸ÇÏ±â</p>
+			<p>ìœ„ì¹˜ê°’ êµ¬í•˜ê¸°</p>
 			<p>window.screenLeft</p>
 			<p>window.screenTop</p>
 			<p>&nbsp;</p>
-			<p>À§Ä¡°ª ¼³Á¤ÇÏ±â</p>
+			<p>ìœ„ì¹˜ê°’ ì„¤ì •í•˜ê¸°</p>
 			<p>window.moveTo(dx, dy)</p>
 			<p>window.moveBy(dx, dy)</p>
 		</td>
 	</tr>
 	<tr>
-		<td>À©µµ¿ì ½ºÅ©·Ñ ´Ù·ç±â</td>
+		<td>ìœˆë„ìš° ìŠ¤í¬ë¡¤ ë‹¤ë£¨ê¸°</td>
 		<td>
-			<p>½ºÅ©·Ñ À§Ä¡°ª ±¸ÇÏ±â</p>
+			<p>ìŠ¤í¬ë¡¤ ìœ„ì¹˜ê°’ êµ¬í•˜ê¸°</p>
 			<p>window.pageXOffset</p>
 			<p>window.pageYOffset</p>
 			<p>&nbsp;</p>
-			<p>½ºÅ©·Ñ À§Ä¡ ¼³Á¤ÇÏ±â</p>
+			<p>ìŠ¤í¬ë¡¤ ìœ„ì¹˜ ì„¤ì •í•˜ê¸°</p>
 			<p>window.scrollTo(x, y)</p>
 			<p>window.scrollBy(x, y)</p>
 			<p>&nbsp;</p>
-			<p>½ºÅ©·Ñ ÀÌº¥Æ® Ã³¸®ÇÏ±â</p>
+			<p>ìŠ¤í¬ë¡¤ ì´ë²¤íŠ¸ ì²˜ë¦¬í•˜ê¸°</p>
 			<p>$(window).on('scroll', function(){})</p>
 		</td>
 	</tr>
 	<tr>
-		<td rowspan="2">¸¶¿ì½ºÀÇ À§Ä¡ ¹× Å©±â °ü·Ã±â´É</td>
-		<td>Å¬¸¯ÇÑ Àü¿ª À§Ä¡</td>
+		<td rowspan="2">ë§ˆìš°ìŠ¤ì˜ ìœ„ì¹˜ ë° í¬ê¸° ê´€ë ¨ê¸°ëŠ¥</td>
+		<td>í´ë¦­í•œ ì „ì—­ ìœ„ì¹˜</td>
 		<td>
-			<p>À©µµ¿ì ¿µ¿ªÀ» ±âÁØÀ¸·Î ÇÏ´Â Àü¿ª À§Ä¡</p>
+			<p>ìœˆë„ìš° ì˜ì—­ì„ ê¸°ì¤€ìœ¼ë¡œ í•˜ëŠ” ì „ì—­ ìœ„ì¹˜</p>
 			<p>mouseEvent.clientX</p>
 			<p>mouseEvent.clientY</p>
 			<p>&nbsp;</p>
-			<p>¹®¼­ ¿µ¿ªÀ» ±âÁØÀ¸·Î ÇÏ´Â Àü¿ª À§Ä¡</p>
+			<p>ë¬¸ì„œ ì˜ì—­ì„ ê¸°ì¤€ìœ¼ë¡œ í•˜ëŠ” ì „ì—­ ìœ„ì¹˜</p>
 			<p>mouseEvent.pageX</p>
 			<p>mouseEvent.pageY</p>
 		</td>
 	</tr>
 	<tr>
-		<td>Å¬¸¯ÇÑ Áö¿ª À§Ä¡</td>
+		<td>í´ë¦­í•œ ì§€ì—­ ìœ„ì¹˜</td>
 		<td>
-			<p>var offsetX = mouseEvent.pageX - $(Å¸Å¶).offset()</p>
-			<p>var offsetY = mouseEvent.pageY - $(Å¸Å¶).offset()</p>
+			<p>var offsetX = mouseEvent.pageX - $(íƒ€í‚·).offset()</p>
+			<p>var offsetY = mouseEvent.pageY - $(íƒ€í‚·).offset()</p>
 		</td>
 	</tr>
 
 	<tr>
-		<td rowspan="3">ÀÏ¹Ý È¿°ú ´Ù·ç±â</td>
-		<td>³ªÅ¸³ª°í »ç¶óÁö´Â È¿°ú</td>
+		<td rowspan="3">ì¼ë°˜ íš¨ê³¼ ë‹¤ë£¨ê¸°</td>
+		<td>ë‚˜íƒ€ë‚˜ê³  ì‚¬ë¼ì§€ëŠ” íš¨ê³¼</td>
 		<td>
-			<p>³ªÅ¸³ª±â</p>
-			<p>$´ë»ó.show()</p>
+			<p>ë‚˜íƒ€ë‚˜ê¸°</p>
+			<p>$ëŒ€ìƒ.show()</p>
 			<p>&nbsp;</p>
-			<p>»ç¶óÁö±â</p>
-			<p>$´ë»ó.hide()</p>
+			<p>ì‚¬ë¼ì§€ê¸°</p>
+			<p>$ëŒ€ìƒ.hide()</p>
 		</td>
 	</tr>
 	<tr>
-		<td>ÆäÀÌµå ÀÎ/¾Æ¿ô È¿°ú</td>
+		<td>íŽ˜ì´ë“œ ì¸/ì•„ì›ƒ íš¨ê³¼</td>
 		<td>
-			<p>ÆäÀÌµå ÀÎ</p>
-			<p>$´ë»ó.fadeIn()</p>
+			<p>íŽ˜ì´ë“œ ì¸</p>
+			<p>$ëŒ€ìƒ.fadeIn()</p>
 			<p>&nbsp;</p>
-			<p>ÆäÀÌµå ¾Æ¿ô</p>
-			<p>$´ë»ó.fadeOut()</p>
+			<p>íŽ˜ì´ë“œ ì•„ì›ƒ</p>
+			<p>$ëŒ€ìƒ.fadeOut()</p>
 		</td>
 	</tr>
 	<tr>
-		<td>½½¶óÀÌµå ¾÷/´Ù¿î È¿°ú</td>
+		<td>ìŠ¬ë¼ì´ë“œ ì—…/ë‹¤ìš´ íš¨ê³¼</td>
 		<td>
-			<p>½½¶óÀÌµå ¾÷</p>
-			<p>$´ë»ó.slideUp()</p>
+			<p>ìŠ¬ë¼ì´ë“œ ì—…</p>
+			<p>$ëŒ€ìƒ.slideUp()</p>
 			<p>&nbsp;</p>
-			<p>½½¶óÀÌµå ´Ù¿î</p>
-			<p>$´ë»ó.slideDown()</p>
+			<p>ìŠ¬ë¼ì´ë“œ ë‹¤ìš´</p>
+			<p>$ëŒ€ìƒ.slideDown()</p>
 		</td>
 	</tr>
 </table>
@@ -510,8 +510,8 @@ $´ë»ó.each(function(index) {
 
 
 * [Jquery README](../README.md)
-* [01_00_jquery_±âÃÊ¹®¼­](01_00_jquery_±âÃÊ¹®¼­.md)
-* [01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö](01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö.md)
+* [01_00_jquery_ê¸°ì´ˆë¬¸ì„œ](01_00_jquery_ê¸°ì´ˆë¬¸ì„œ.md)
+* [01_00_jquery_ìžì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜](01_00_jquery_ìžì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜.md)
 * [01_01_jquery_plugin_bxslider](01_01_jquery_plugin_bxslider.md)
 * [01_02_jquery_plugin_slidesjs](01_02_jquery_plugin_slidesjs.md)
 * [01_03_jquery_plugin_bpopup](01_03_jquery_plugin_bpopup.md)
@@ -520,5 +520,3 @@ $´ë»ó.each(function(index) {
 
 ----
 
-
-* [FrontEndStudy](../../README.md)
