@@ -4,7 +4,7 @@ http://slidesjs.com
 
 <br>
 
-### »ç¿ë¹ı
+### ì‚¬ìš©ë²•
 
 ```html
 <!doctype html>
@@ -42,62 +42,62 @@ http://slidesjs.com
 
 <br>
 
-### ¿É¼Ç
+### ì˜µì…˜
 
 ```javascript
 $(function() {
     $("#slides").slidesjs({
-        width: 800, // ³ĞÀÌ
-        height: 500, // ³ôÀÌ
-        start: 3, // ½ÃÀÛ ÀÌ¹ÌÁö ¹øÈ£
+        width: 800, // ë„“ì´
+        height: 500, // ë†’ì´
+        start: 3, // ì‹œì‘ ì´ë¯¸ì§€ ë²ˆí˜¸
         navigation: {
-            active: false // ³×ºñ°ÔÀÌ¼Ç »ç¿ë À¯¹«(ÀÌÀü ´ÙÀ½ º¸±â ¹öÆ°)
+            active: false // ë„¤ë¹„ê²Œì´ì…˜ ì‚¬ìš© ìœ ë¬´(ì´ì „ ë‹¤ìŒ ë³´ê¸° ë²„íŠ¼)
             effect: "slide"
-            //<a href="#" class="slidesjs-previous slidesjs-navigation">ÀÌÀü</a>
-            //<a href="#" class="slidesjs-next slidesjs-navigation">´ÙÀ½</a>
-            //false ÈÄ ÀÌ·±½ÄÀ¸·Î ³ÖÀ¸¸é Ä¿½ºÅÍ¸¶ÀÌÂ¡ °¡´ÉÇÔ
+            //<a href="#" class="slidesjs-previous slidesjs-navigation">ì´ì „</a>
+            //<a href="#" class="slidesjs-next slidesjs-navigation">ë‹¤ìŒ</a>
+            //false í›„ ì´ëŸ°ì‹ìœ¼ë¡œ ë„£ìœ¼ë©´ ì»¤ìŠ¤í„°ë§ˆì´ì§• ê°€ëŠ¥í•¨
         },
         pagination: {
-            active: true, //ÆäÀÌÂ¡
-            effect: "slide" //¼ıÀÚ ´­·¶À»¶§ È¿°ú ½½¶óÀÌµå(slide) ÆäÀÌµåÈ¿°ú(fade)
-            //css slidesjs-pagination ÀÌºÎºĞ ¼öÁ¤À¸·Î Ä¿½ºÅÍ¸¶ÀÌÂ¡ °¡´ÉÇÔ
+            active: true, //í˜ì´ì§•
+            effect: "slide" //ìˆ«ì ëˆŒë €ì„ë•Œ íš¨ê³¼ ìŠ¬ë¼ì´ë“œ(slide) í˜ì´ë“œíš¨ê³¼(fade)
+            //css slidesjs-pagination ì´ë¶€ë¶„ ìˆ˜ì •ìœ¼ë¡œ ì»¤ìŠ¤í„°ë§ˆì´ì§• ê°€ëŠ¥í•¨
         },
         play: {
-            active: true,  //ÇÃ·¹ÀÌ ½ºÅ¾¹öÆ° »ç¿ëÀ¯¹«(¹öÆ°º¯°æºÒ°¡)
-            effect: "slide", //È¿°ú slide, fade
-            interval: 2000,  //¹Ğ¸®¼¼ÄÁµå ´ÜÀ§ 5000 ÀÌ¸é 5ÃÊ
-            auto: true, //½ÃÀÛ½Ã ÀÚµ¿ Àç»ı »ç¿ëÀ¯¹«
-            swap: true, //ÇÃ·¹ÀÌ½º ½ºÅ¾¹öÆ° µÑ´Ùº¸ÀÓ false, ÇÏ³ª·Î º¸ÀÓ true
-            pauseOnHover: false, //¸¶¿ì½º ¿Ã·ÈÀ»¶§ ½½¶óÀÌµå ¸ØÃãÇÒ²«Áö ¸»²«Áö
-            restartDelay: 2500 //¸¶¿ì½º ¿Ã·È´Ù°¡ ¹ş¾î ³µÀ»¶§ Àç ÀÛµ¿ ½Ã°£ ¹Ğ¸®¼¼ÄÁµå ´ÜÀ§
-            //css slidesjs-play, slidesjs-stop ÀÌºÎºĞÀ» ÀÌ¿ëÇØ¼­ Ä¿½ºÅÍ¸¶ÀÌÂ¡ °¡´ÉÇÔ
+            active: true,  //í”Œë ˆì´ ìŠ¤íƒ‘ë²„íŠ¼ ì‚¬ìš©ìœ ë¬´(ë²„íŠ¼ë³€ê²½ë¶ˆê°€)
+            effect: "slide", //íš¨ê³¼ slide, fade
+            interval: 2000,  //ë°€ë¦¬ì„¸ì»¨ë“œ ë‹¨ìœ„ 5000 ì´ë©´ 5ì´ˆ
+            auto: true, //ì‹œì‘ì‹œ ìë™ ì¬ìƒ ì‚¬ìš©ìœ ë¬´
+            swap: true, //í”Œë ˆì´ìŠ¤ ìŠ¤íƒ‘ë²„íŠ¼ ë‘˜ë‹¤ë³´ì„ false, í•˜ë‚˜ë¡œ ë³´ì„ true
+            pauseOnHover: false, //ë§ˆìš°ìŠ¤ ì˜¬ë ¸ì„ë•Œ ìŠ¬ë¼ì´ë“œ ë©ˆì¶¤í• ê»€ì§€ ë§ê»€ì§€
+            restartDelay: 2500 //ë§ˆìš°ìŠ¤ ì˜¬ë ¸ë‹¤ê°€ ë²—ì–´ ë‚¬ì„ë•Œ ì¬ ì‘ë™ ì‹œê°„ ë°€ë¦¬ì„¸ì»¨ë“œ ë‹¨ìœ„
+            //css slidesjs-play, slidesjs-stop ì´ë¶€ë¶„ì„ ì´ìš©í•´ì„œ ì»¤ìŠ¤í„°ë§ˆì´ì§• ê°€ëŠ¥í•¨
         },
         effect: {
             slide: {
-                // ½½¶óÀÌµå È¿°ú
+                // ìŠ¬ë¼ì´ë“œ íš¨ê³¼
                 speed: 200
-                // 0.2ÃÊ¸¸¿¡ ¹Ù²ñ
+                // 0.2ì´ˆë§Œì— ë°”ë€œ
             },
             fade: {
-                // ÆäÀÌµå È¿°ú
+                // í˜ì´ë“œ íš¨ê³¼
                 speed: 300,
-                // 0.3ÃÊ¸¸¿¡ ¹Ù²ñ
+                // 0.3ì´ˆë§Œì— ë°”ë€œ
                 crossfade: true
-                // ´ÙÀ½ÀÌ¹ÌÁö¿Í °ãÃÄ¼­ ³ªÅ¸³² À¯¹«
+                // ë‹¤ìŒì´ë¯¸ì§€ì™€ ê²¹ì³ì„œ ë‚˜íƒ€ë‚¨ ìœ ë¬´
             }
         },
         callback: {
             loaded: function(number) {
-                //Ã³À½ È­¸é ·ÎµåµÉ¶§ ¹øÈ£
+                //ì²˜ìŒ í™”ë©´ ë¡œë“œë ë•Œ ë²ˆí˜¸
                 //  alert('loaded : ' + number);
                 $('#slidesjs-slide-number').text(number);
             },
             start: function(number) {
-                //º¯°æÀü »çÁø¹øÈ£
+                //ë³€ê²½ì „ ì‚¬ì§„ë²ˆí˜¸
                 //  alert('start : ' + number);
             },
             complete: function(number) {
-                //º¯°æÈÄ »çÁø¹øÈ£
+                //ë³€ê²½í›„ ì‚¬ì§„ë²ˆí˜¸
                 //  alert('complete : ' + number);
                 $('#slidesjs-slide-number').text(number);
             }
@@ -108,14 +108,14 @@ $(function() {
 
 
 
-###¿¹Á¦
+###ì˜ˆì œ
 
-* [Ç¥ÁØ ½½¶óÀÌµå] (http://slidesjs.com/examples/standard/)
-* [Àç»ı ¹× ÁßÁöÇÏ´Â ½½¶óÀÌµå](http://slidesjs.com/examples/playing/)
-* [¿©·¯°³ÀÇ ½½¶óÀÌµå](http://slidesjs.com/examples/multiple/)
-* [Äİ¹éÀ» »ç¿ë](http://slidesjs.com/examples/callbacks/)
-* [±âº» ½½¶óÀÌµù ½½¶óÀÌµå (½ºÅ¸ÀÏÀÌ Àû¿ëµÇÁö ¾ÊÀ½)](http://slidesjs.com/examples/basic/)
-* [±âº» ÆäÀÌµù ½½¶óÀÌµå (½ºÅ¸ÀÏÀÌ Àû¿ëµÇÁö ¾ÊÀ½)](http://slidesjs.com/examples/basic-fade/)
+* [í‘œì¤€ ìŠ¬ë¼ì´ë“œ] (http://slidesjs.com/examples/standard/)
+* [ì¬ìƒ ë° ì¤‘ì§€í•˜ëŠ” ìŠ¬ë¼ì´ë“œ](http://slidesjs.com/examples/playing/)
+* [ì—¬ëŸ¬ê°œì˜ ìŠ¬ë¼ì´ë“œ](http://slidesjs.com/examples/multiple/)
+* [ì½œë°±ì„ ì‚¬ìš©](http://slidesjs.com/examples/callbacks/)
+* [ê¸°ë³¸ ìŠ¬ë¼ì´ë”© ìŠ¬ë¼ì´ë“œ (ìŠ¤íƒ€ì¼ì´ ì ìš©ë˜ì§€ ì•ŠìŒ)](http://slidesjs.com/examples/basic/)
+* [ê¸°ë³¸ í˜ì´ë”© ìŠ¬ë¼ì´ë“œ (ìŠ¤íƒ€ì¼ì´ ì ìš©ë˜ì§€ ì•ŠìŒ)](http://slidesjs.com/examples/basic-fade/)
 
 
 
@@ -123,8 +123,8 @@ $(function() {
 
 
 * [Jquery README](../README.md)
-* [01_00_jquery_±âÃÊ¹®¼­](01_00_jquery_±âÃÊ¹®¼­.md)
-* [01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö](01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö.md)
+* [01_00_jquery_ê¸°ì´ˆë¬¸ì„œ](01_00_jquery_ê¸°ì´ˆë¬¸ì„œ.md)
+* [01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜](01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜.md)
 * [01_01_jquery_plugin_bxslider](01_01_jquery_plugin_bxslider.md)
 * [01_02_jquery_plugin_slidesjs](01_02_jquery_plugin_slidesjs.md)
 * [01_03_jquery_plugin_bpopup](01_03_jquery_plugin_bpopup.md)
@@ -133,5 +133,3 @@ $(function() {
 
 ----
 
-
-* [FrontEndStudy](../../README.md)
