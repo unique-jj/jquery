@@ -1,34 +1,34 @@
-# jQuery  ÀÚÁÖ »ç¿ëÇÏ´Â ÇÔ¼ö
+# jQuery  ìì£¼ ì‚¬ìš©í•˜ëŠ” í•¨ìˆ˜
 
 
-## Triggrt ÇÔ¼ö
+## Triggrt í•¨ìˆ˜
 
-¿ø¹® ¸µÅ©:  http://api.jquery.com/trigger/
-
-```javascript
-.trigger( eventType [, extraParameters] )
-```
-
-°³¿ä : Æ¯Á¤ ÀÌº¥Æ® À¯Çü¿¡ ´ëÇØ ¼±ÅÃµÈ ¿ä¼Ò¿¡ ¿¬°áµÈ ¸ğµç ÇÚµé·¯¿Í µ¿ÀÛ(behavior)À» ½ÇÇàÇÕ´Ï´Ù.
+ì›ë¬¸ ë§í¬:  http://api.jquery.com/trigger/
 
 ```javascript
 .trigger( eventType [, extraParameters] )
 ```
 
-eventType: JavaScript ÀÌº¥Æ® Å¸ÀÔÀ» Ç¥ÇöÇÏ´Â ¹®ÀÚ¿­, `click` ¶Ç´Â `submit` °°Àº.
+ê°œìš” : íŠ¹ì • ì´ë²¤íŠ¸ ìœ í˜•ì— ëŒ€í•´ ì„ íƒëœ ìš”ì†Œì— ì—°ê²°ëœ ëª¨ë“  í•¸ë“¤ëŸ¬ì™€ ë™ì‘(behavior)ì„ ì‹¤í–‰í•©ë‹ˆë‹¤.
 
-extraParameters: ÀÌº¥Æ® ÇÚµé·¯¿¡ Àü´ŞÇÒ Ãß°¡ ÆÄ¶ó¹ÌÅÍ.
+```javascript
+.trigger( eventType [, extraParameters] )
+```
+
+eventType: JavaScript ì´ë²¤íŠ¸ íƒ€ì…ì„ í‘œí˜„í•˜ëŠ” ë¬¸ìì—´, `click` ë˜ëŠ” `submit` ê°™ì€.
+
+extraParameters: ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ì— ì „ë‹¬í•  ì¶”ê°€ íŒŒë¼ë¯¸í„°.
 
 .trigger( event )
-event jQuery.Event °´Ã¼.
+event jQuery.Event ê°ì²´.
 
 
 
 <br>
 
 
-## ¿¹Á¦_01
-.trigger() ÇÔ¼ö´Â ÀÌº¥Æ®°¡ ¹ß»ıÇÒ ¶§ ½ÇÇàµÉ ÇÔ¼ö³ª .bind() ÇÔ¼ö·Î ¿¬°áµÈ ¾î¶² ÀÌº¥Æ® ÇÚµé·¯¸¦ °­Á¦·Î ½ÇÇà½ÃÄÑ Áİ´Ï´Ù.
+## ì˜ˆì œ_01
+.trigger() í•¨ìˆ˜ëŠ” ì´ë²¤íŠ¸ê°€ ë°œìƒí•  ë•Œ ì‹¤í–‰ë  í•¨ìˆ˜ë‚˜ .bind() í•¨ìˆ˜ë¡œ ì—°ê²°ëœ ì–´ë–¤ ì´ë²¤íŠ¸ í•¸ë“¤ëŸ¬ë¥¼ ê°•ì œë¡œ ì‹¤í–‰ì‹œì¼œ ì¤ë‹ˆë‹¤.
 
 ```javascript
 $('#foo').bind('click', function() {
@@ -37,34 +37,34 @@ $('#foo').bind('click', function() {
 $('#foo').trigger('click');
 ```
 
-`#foot` ¼±ÅÃÀÚ¸¦ Å¬¸¯ ÇÏÁö ¾Ê¾Æµµ triggerÇÔ¼ö¿¡ ¿¬°áµÈ click ÀÌº¥Æ®°¡  triggerÇÔ¼öÀÇ Æ¯Â¡ÀÇ ÀÇÇÏ¿©
- `alert($(this).text());` ¸¦  °­Á¦·Î ½ÇÇàÇÕ´Ï´Ù.
+`#foot` ì„ íƒìë¥¼ í´ë¦­ í•˜ì§€ ì•Šì•„ë„ triggerí•¨ìˆ˜ì— ì—°ê²°ëœ click ì´ë²¤íŠ¸ê°€  triggerí•¨ìˆ˜ì˜ íŠ¹ì§•ì˜ ì˜í•˜ì—¬
+ `alert($(this).text());` ë¥¼  ê°•ì œë¡œ ì‹¤í–‰í•©ë‹ˆë‹¤.
 
 
 <br>
 
-## ¿¹Á¦_02
+## ì˜ˆì œ_02
 
 ```html
 <script>  
 $(document).ready(function () {
-    //btnÅ¬¸¯ ÀÌº¥Æ® Ã³¸®
-    $("#btn").click(function () { alert('¹öÆ°ÀÌ Å¬¸¯µÇ¾ú½À´Ï´Ù.') });
-    //ÆäÀÌÁö ·Îµå½Ã ¹öÆ° Å¬¸¯
-    $('#my .hover').click(function () { alert('¹öÆ°ÀÌ Å¬¸¯'); });
+    //btní´ë¦­ ì´ë²¤íŠ¸ ì²˜ë¦¬
+    $("#btn").click(function () { alert('ë²„íŠ¼ì´ í´ë¦­ë˜ì—ˆìŠµë‹ˆë‹¤.') });
+    //í˜ì´ì§€ ë¡œë“œì‹œ ë²„íŠ¼ í´ë¦­
+    $('#my .hover').click(function () { alert('ë²„íŠ¼ì´ í´ë¦­'); });
     $('#my input[type=button]').one("click", function () {
-     alert('¿ª½Ã ¹öÆ°ÀÌ »ç¿ëÀÚ¿¡ ÀÇÇØ¼­ Å¬¸¯µÊ');
+     alert('ì—­ì‹œ ë²„íŠ¼ì´ ì‚¬ìš©ìì— ì˜í•´ì„œ í´ë¦­ë¨');
     });
-    $('#btn').bind("click", function () { alert('¹öÆ°ÀÌ Å¬¸¯µÊ'); });
-    //¹öÆ° Å¬¸¯ÀÌ ¾Æ´Ï¶ó ÄÚµå¿¡ ÀÇÇØ¼­ clickÀÌº¥Æ®¸¦ ½ÇÇàÇÏ°í ½Í´Ù¸é?
+    $('#btn').bind("click", function () { alert('ë²„íŠ¼ì´ í´ë¦­ë¨'); });
+    //ë²„íŠ¼ í´ë¦­ì´ ì•„ë‹ˆë¼ ì½”ë“œì— ì˜í•´ì„œ clickì´ë²¤íŠ¸ë¥¼ ì‹¤í–‰í•˜ê³  ì‹¶ë‹¤ë©´?
     $('#btn').trigger('click');
 });
 </script>
 
-<!-- ¸ğµç click  ÀÌº¥Æ®°¡   $('#btn').trigger('click'); ÄÚµù¿¡ ÀÇÇÏ¿©  °­Á¦·Î ½ÇÇàµÇ´Â ¿¹Á¦ ÀÔ´Ï´Ù. -->
+<!-- ëª¨ë“  click  ì´ë²¤íŠ¸ê°€   $('#btn').trigger('click'); ì½”ë”©ì— ì˜í•˜ì—¬  ê°•ì œë¡œ ì‹¤í–‰ë˜ëŠ” ì˜ˆì œ ì…ë‹ˆë‹¤. -->
 
 <div id="my">
-   <input type="button" id="btn" value="¹öÆ°" class="hover" />
+   <input type="button" id="btn" value="ë²„íŠ¼" class="hover" />
 </div>
 ```
 
@@ -75,17 +75,17 @@ $(document).ready(function () {
 
 <br>
 
-## each(¹İº¹¹®) ÇÔ¼ö
+## each(ë°˜ë³µë¬¸) í•¨ìˆ˜
 
-.each()´Â ¼±ÅÃÇÑ ¿ä¼Ò°¡ ¿©·¯°³ÀÏ ¶§ °¢°¢¿¡ ´ëÇÏ¿© ¹İº¹ÇÏ¿© ÇÔ¼ö¸¦ ½ÇÇà½ÃÅµ´Ï´Ù.
+.each()ëŠ” ì„ íƒí•œ ìš”ì†Œê°€ ì—¬ëŸ¬ê°œì¼ ë•Œ ê°ê°ì— ëŒ€í•˜ì—¬ ë°˜ë³µí•˜ì—¬ í•¨ìˆ˜ë¥¼ ì‹¤í–‰ì‹œí‚µë‹ˆë‹¤.
 
-¹®¹ı  :  .each( function )
+ë¬¸ë²•  :  .each( function )
 
-Æ¯Á¤ Á¶°ÇÀ» ¸¸Á·ÇÒ ¶§ ¹İº¹ ÀÛ¾÷¿¡¼­ ºüÁ®·Á¸é  :  return false »ç¿ëÇÕ´Ï´Ù.
+íŠ¹ì • ì¡°ê±´ì„ ë§Œì¡±í•  ë•Œ ë°˜ë³µ ì‘ì—…ì—ì„œ ë¹ ì ¸ë ¤ë©´  :  return false ì‚¬ìš©í•©ë‹ˆë‹¤.
 
 
 
-## ¿¹Á¦_01
+## ì˜ˆì œ_01
 
 ```html
 <style>
@@ -114,8 +114,8 @@ $(document).ready(function () {
 
 
 
-## ¿¹Á¦_02
-¹İº¹ ÀÛ¾÷À» µÎ¹ø¸¸ ÇÏ°í ºüÁ®³ª¿À´Â ¿¹Á¦ÀÔ´Ï´Ù.
+## ì˜ˆì œ_02
+ë°˜ë³µ ì‘ì—…ì„ ë‘ë²ˆë§Œ í•˜ê³  ë¹ ì ¸ë‚˜ì˜¤ëŠ” ì˜ˆì œì…ë‹ˆë‹¤.
 
 ```html
 <style>
@@ -150,8 +150,8 @@ $(document).ready(function () {
 
 
 * [Jquery README](../README.md)
-* [01_00_jquery_±âÃÊ¹®¼­](01_00_jquery_±âÃÊ¹®¼­.md)
-* [01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö](01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö.md)
+* [01_00_jquery_ê¸°ì´ˆë¬¸ì„œ](01_00_jquery_ê¸°ì´ˆë¬¸ì„œ.md)
+* [01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜](01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜.md)
 * [01_01_jquery_plugin_bxslider](01_01_jquery_plugin_bxslider.md)
 * [01_02_jquery_plugin_slidesjs](01_02_jquery_plugin_slidesjs.md)
 * [01_03_jquery_plugin_bpopup](01_03_jquery_plugin_bpopup.md)
@@ -160,5 +160,3 @@ $(document).ready(function () {
 
 ----
 
-
-* [FrontEndStudy](../../README.md)
