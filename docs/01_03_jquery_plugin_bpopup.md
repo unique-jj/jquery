@@ -1,21 +1,21 @@
 # bpopup
 
 bPopup.js  : 
-* [·¹ÆÛ·±½º »çÀÌÆ® : http://dinbror.dk/bpopup/ ] (http://dinbror.dk/bpopup/)
-* v0.11.0 ´Ù¿î·Îµå :  [jquery.bpopup.min.js ] (https://raw.github.com/dinbror/bpopup/master/jquery.bpopup.min.js)
+* [ë ˆí¼ëŸ°ìŠ¤ ì‚¬ì´íŠ¸ : http://dinbror.dk/bpopup/ ] (http://dinbror.dk/bpopup/)
+* v0.11.0 ë‹¤ìš´ë¡œë“œ :  [jquery.bpopup.min.js ] (https://raw.github.com/dinbror/bpopup/master/jquery.bpopup.min.js)
 
 
 
-### Æ¯Â¡
-* °¡·Î/¼¼·Î ÀÚµ¿ Á¤·Ä ¹× ¼öµ¿¼ÂÆÃ °¡´É (ÄÁÅÙÃ÷ ³ôÀÌ¿¡ µû¶ó absolut | fixed ÀÚµ¿¼³Á¤)   
-* ´ÙÁßÆË¾÷ Áö¿ø (´ÙÁßÀ¸·Î ÆË¾÷À» ¿­ ¼ö ÀÖÀ¸¸ç, ¿­¸° ¼ø¼­ ¿ª¼øÀ¸·Î ´İÈû)
-* Äİ¹é Áö¿ø
-* Ajax, image, iframe Áö¿ø
-* ÇÏÀ§ ºê¶ó¿ìÁ® tested :  Internet Explorer 6*-9, Firefox 2+, Opera 9+, Safari 4+ and Chrome 4+
+### íŠ¹ì§•
+* ê°€ë¡œ/ì„¸ë¡œ ìë™ ì •ë ¬ ë° ìˆ˜ë™ì…‹íŒ… ê°€ëŠ¥ (ì»¨í…ì¸  ë†’ì´ì— ë”°ë¼ absolut | fixed ìë™ì„¤ì •)   
+* ë‹¤ì¤‘íŒì—… ì§€ì› (ë‹¤ì¤‘ìœ¼ë¡œ íŒì—…ì„ ì—´ ìˆ˜ ìˆìœ¼ë©°, ì—´ë¦° ìˆœì„œ ì—­ìˆœìœ¼ë¡œ ë‹«í˜)
+* ì½œë°± ì§€ì›
+* Ajax, image, iframe ì§€ì›
+* í•˜ìœ„ ë¸Œë¼ìš°ì ¸ tested :  Internet Explorer 6*-9, Firefox 2+, Opera 9+, Safari 4+ and Chrome 4+
 
 
 
-### ±âº»¼ÂÆÃ
+### ê¸°ë³¸ì…‹íŒ…
 
 ```html
 <!doctype html>
@@ -49,66 +49,66 @@ bPopup.js  :
 </html>
 ```
 
-* [=> codepen ¿¹Á¦] (http://codepen.io/dot2flower/pen/LpwajB/)
+* [=> codepen ì˜ˆì œ] (http://codepen.io/dot2flower/pen/LpwajB/)
 
 
 
-## ±¸¼º
+## êµ¬ì„±
 
 **option**
-±âº»¿É¼Ç
+ê¸°ë³¸ì˜µì…˜
 ``` javascript
 $('element_to_pop_up').bPopup(
 	follow: [false, false], 
 	// true or false (boolean) | x, y 
 	// default : true
-	// ÆË¾÷ÀÌ µû¶ó´Ù´Ï´Â °ÍÀ» Á¤Áö½ÃÅ³ ¼ö ÀÖÀ¸¸ç, ÇÑÂÊ¸¸ °íÁ¤ °¡´É
+	// íŒì—…ì´ ë”°ë¼ë‹¤ë‹ˆëŠ” ê²ƒì„ ì •ì§€ì‹œí‚¬ ìˆ˜ ìˆìœ¼ë©°, í•œìª½ë§Œ ê³ ì • ê°€ëŠ¥
 
 	position: [150, 400], 
 	// int |  x, y 
 	// default : auto 
-	// ÆË¾÷ ÁÂÇ¥
+	// íŒì—… ì¢Œí‘œ
 
 	modalClose: false,  
 	// true or false 
 	// default : true
-	// ¹è°æÀ» ´­·¯¼­ ÆË¾÷ ´İ±â ¿©ºÎ
+	// ë°°ê²½ì„ ëˆŒëŸ¬ì„œ íŒì—… ë‹«ê¸° ì—¬ë¶€
 
 	autoClose: 1000 ,
 	//Auto closes after 
-	// ÀÚµ¿ ´İ±â (¹Ğ¸®ÃÊ)
+	// ìë™ ë‹«ê¸° (ë°€ë¦¬ì´ˆ)
 
 	opacity: 0.6, 
 	// default : 0.7 	
-	//¹è°æ Åõ¸íµµ
+	//ë°°ê²½ íˆ¬ëª…ë„
 
 	positionStyle: 'fixed', 
 	//'fixed' or 'absolute'
 	// default : auto
-	// ÆË¾÷ÀÇ position À¯Çü
+	// íŒì—…ì˜ position ìœ í˜•
 	
 	fadeSpeed: 'slow', 
-	// »ç¶óÁö´Â ¼Óµµ 'slow', 'fast' or int
+	// ì‚¬ë¼ì§€ëŠ” ì†ë„ 'slow', 'fast' or int
 
 	followSpeed: 1500, 
-	//µû¶ó´Ù´Ï´Â ¼Óµµ 'slow' or 'fast' or int
+	//ë”°ë¼ë‹¤ë‹ˆëŠ” ì†ë„ 'slow' or 'fast' or int
 
 	modalColor: 'yellow' , 	
 	// default : #000	
-	// ¸ğ´ŞÀÇ ÄÃ·¯ 
+	// ëª¨ë‹¬ì˜ ì»¬ëŸ¬ 
 
 	easing: 'easeOutBack', 
 	//uses jQuery easing plugin 
 
 	speed: 450, 
-	//¿¡´Ï¸ŞÀÌ¼Ç ¼Óµµ
+	//ì—ë‹ˆë©”ì´ì…˜ ì†ë„
 
 	transition: 'slideDown', 
 	// 'slideDown' or  'slideIn'
-	// ÆË¾÷ ¿­¸± ¶§ ¾Ö´Ï¸ŞÀÌ¼Ç ¿É¼Ç 
+	// íŒì—… ì—´ë¦´ ë•Œ ì• ë‹ˆë©”ì´ì…˜ ì˜µì…˜ 
 	
 	transitionClose: 'slideBack' 
-	// ÆË¾÷ ´İÈú ¶§ ¾Ö´Ï¸ŞÀÌ¼Ç ¿É¼Ç
+	// íŒì—… ë‹«í ë•Œ ì• ë‹ˆë©”ì´ì…˜ ì˜µì…˜
 
 );
 ```
@@ -118,8 +118,8 @@ $('element_to_pop_up').bPopup(
 
 
 * [Jquery README](../README.md)
-* [01_00_jquery_±âÃÊ¹®¼­](01_00_jquery_±âÃÊ¹®¼­.md)
-* [01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö](01_00_jquery_ÀÚÁÖ»ç¿ëÇÏ´Â_ÇÔ¼ö.md)
+* [01_00_jquery_ê¸°ì´ˆë¬¸ì„œ](01_00_jquery_ê¸°ì´ˆë¬¸ì„œ.md)
+* [01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜](01_00_jquery_ìì£¼ì‚¬ìš©í•˜ëŠ”_í•¨ìˆ˜.md)
 * [01_01_jquery_plugin_bxslider](01_01_jquery_plugin_bxslider.md)
 * [01_02_jquery_plugin_slidesjs](01_02_jquery_plugin_slidesjs.md)
 * [01_03_jquery_plugin_bpopup](01_03_jquery_plugin_bpopup.md)
@@ -128,5 +128,3 @@ $('element_to_pop_up').bPopup(
 
 ----
 
-
-* [FrontEndStudy](../../README.md)
